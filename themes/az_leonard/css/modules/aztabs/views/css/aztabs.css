@@ -1,0 +1,396 @@
+/*-----------------------Css for Original Module ----------------------------*/
+
+.az_tabs {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.az_tabs .aztabs-wrap {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.az_tabs .load-clear {
+    clear: both;
+}
+
+
+/*-----------------------Css for Tabs ----------------------------*/
+
+.az_tabs .aztabs-tabs-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs {
+    display: block;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap span.aztabs-tab-arrow,
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap span.aztabs-tab-selected {
+    display: none;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    line-height: 35px;
+    clear: both;
+    color: #888;
+    cursor: pointer;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox span.aztabs-tab-selected {
+    text-indent: 20px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    overflow: hidden;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox span.aztabs-tab-arrow {
+    width: 35px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: #DDD;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox span.aztabs-tab-arrow,
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox span.aztabs-tab-selected {
+    position: relative;
+    float: left;
+    height: 35px;
+    z-index: 1;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.az_tabs .add-loadmore {
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+    vertical-align: middle;
+}
+
+.az_tabs .loaded .add-loadmore {
+    display: none;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tabs {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    background: #fff;
+    display: none;
+    z-index: 999;
+    padding: 10px 0;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tabs.aztabs-open {
+    display: block;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tabs li {
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tab span {
+    display: block;
+    line-height: 20px;
+    padding: 6px 20px;
+}
+
+
+/*-----------------------------Css for Content----------------------*/
+
+.az_tabs .aztabs-items-container .aztabs-items {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+}
+
+.az_tabs .aztabs-items-container .aztabs-items-inner {
+    margin: 0;
+    padding: 30px 0 0;
+    width: 100%;
+}
+
+.az_tabs .aztabs-items-container .aztabs-items-selected {
+    display: block;
+}
+
+.az_tabs .aztabs-items-container .aztabs-item-wrap {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /*box-shadow: #000 0em 0em 0em;*/
+}
+
+.az_tabs .aztabs-items-container .aztabs-item-wrap img {
+    width: 100%;
+    max-width: 100%;
+    /*box-shadow: #000 0em 0em 0em;*/
+}
+
+.az_tabs .aztabs-items-container .aztabs-items .aztabs-item {
+    float: left;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    padding: 0 15px;
+    /*box-shadow: #000 0em 0em 0em;*/
+}
+
+
+/*class show-slider*/
+
+.az_tabs .aztabs-items-container.show-slider .aztabs-item .item-inner .item-image {
+    /*overflow: hidden;*/
+}
+
+.az_tabs .aztabs-items-container.show-slider .aztabs-item {
+    width: 100%;
+}
+
+.az_tabs .aztabs-items-container.show-slider .aztabs-items .aztabs-item {
+    opacity: 1;
+}
+
+
+/*for owl-next and owl-pre*/
+
+
+/*for owl-next and owl-pre*/
+
+
+/*class show-slider*/
+
+.az_tabs .aztabs-items-container .aztabs-items .aztabs-item .item-inner {
+    margin: 0 10px;
+}
+
+.az_tabs .aztabs-items-container .aztabs-items .aztabs-item .item-inner .item-image {
+    border: 1px solid #e9e9e9;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.az_tabs .aztabs-items-container .aztabs-items .aztabs-item .item-inner .item-image img {
+    width: 99%;
+}
+
+.az_tabs .aztabs-items .aztabs-loading {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+    background: url(../img/477.GIF) no-repeat scroll center center transparent;
+    min-height: 600px;
+    display: block;
+    z-index: 0;
+}
+
+.az_tabs .aztabs-items-container .aztabs-loadmore {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.az_tabs .aztabs-items .aztabs-loadmore .aztabs-loadmore-btn .aztabs-image-loading {
+    background: url("../img/301.GIF") no-repeat scroll center center transparent;
+    width: 22px;
+    height: 22px;
+    display: none;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.az_tabs .aztabs-items .aztabs-loadmore .aztabs-loadmore-btn:after {
+    content: attr(data-label);
+}
+
+.az_tabs .aztabs-items.aztabs-process .aztabs-loadmore {
+    display: none;
+}
+
+.az_tabs .owl-carousel .owl-stage {
+    transition: 0.3s all ease 0s !important;
+}
+
+
+/*----------------------------- Edit AZ Tabs ----------------------*/
+
+div.featured_products .az_titleModule,
+div.new_products .az_titleModule {
+    border: none;
+    color: #363636;
+    font-size: 30px;
+    padding: 0;
+}
+
+div.az_tabs {
+    width: 100%;
+}
+
+div.az_tabs .aztabs-tabs-container {
+    text-align: center;
+    margin: 0;
+}
+
+div.az_tabs .aztabs-tabs-container .aztabs-tab {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+    color: #363636;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
+
+div.az_tabs .aztabs-tabs-container .aztabs-tab:before{
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    position: absolute;
+    -webkit-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    transform: scale(0,0);
+    transition: 0.3s all ease 0s;
+}
+
+div.az_tabs .aztabs-tabs-container .aztabs-tab:hover:before,
+div.az_tabs .aztabs-tabs-container .aztabs-tab.tab-sel:before {
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  -o-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+div.az_tabs .aztabs-tabs-container .aztabs-tab:before {
+    height: 1px;
+    bottom: 4px;
+}
+
+div.az_tabs .product_list .cart_button {
+    line-height: 26px;
+}
+
+div.az_tabs .product_list .cart_button:hover {
+    background: transparent;
+}
+
+div.az_tabs .owl-controls .owl-nav {
+    display: inline-block;
+}
+
+div.az_tabs .owl-controls .owl-nav .owl-prev,
+div.az_tabs .owl-controls .owl-nav .owl-next {
+    display: inline-block;
+    color: #898989;
+    transition: 0.3s all ease 0s;
+    font-size: 21px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: solid 1px transparent;
+    text-align: center;
+}
+
+div.az_tabs .owl-controls .owl-nav .owl-prev {
+    left: 15px;
+}
+
+div.az_tabs .owl-controls .owl-nav .owl-next {
+    right: 15px;
+}
+
+@media (max-width: 767px) {
+    div.az_tabs .aztabs-tabs-container .aztabs-tab {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    div.az_tabs .aztabs-tabs-container {
+        margin: 30px 0;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox {
+        width: 100%;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tab-selected {
+        width: calc(100% - 35px);
+        color: #000;
+        text-transform: uppercase;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tab {
+        display: block;
+        color: #707070;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tab:hover,
+    div.az_tabs .aztabs-tabs-container .aztabs-tab.tab-sel {
+        color: #252525;
+        letter-spacing: 3px;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tab span.aztabs-tab-label {
+        font-weight: 400;
+        text-transform: none;
+        font-size: 13px;
+        font-family: Poppins;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tab:after,
+    div.az_tabs .aztabs-tabs-container .aztabs-tab:before {
+        display: none;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox {
+        padding: 0;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tabs.aztabs-open .owl-controls {
+        display: none;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tabs.aztabs-open .owl-stage {
+        width: 100% !important;
+    }
+    div.az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox .aztabs-tabs.aztabs-open .owl-item {
+        width: 100% !important;
+    }
+    div.featured_products .az_titleModule,
+    div.new_products .az_titleModule {
+        font-size: 20px;
+    }
+    .rtl .az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox {
+        text-align: right;
+    }
+    .rtl .az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox span.aztabs-tab-selected {
+        float: right;
+        text-align: right;
+    }
+    .rtl .az_tabs .aztabs-tabs-container .aztabs-tabs-wrap.aztabs-selectbox span.aztabs-tab-arrow {
+        float: right;
+    }
+}

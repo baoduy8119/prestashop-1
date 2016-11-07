@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EN - Ecommerce blog by PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/en</link>
+	<description></description>
+	<lastBuildDate>Mon, 31 Oct 2016 14:46:38 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Meet Krystian, Ambassador of the month &#124; October 2016</title>
+		<link>https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/#comments</comments>
+		<pubDate>Mon, 31 Oct 2016 14:32:13 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22258</guid>
+		<description><![CDATA[<p>With 49 contributions on GitHub and 1147 active posts on the forum, Krystian – one of our Ambassadors from Poland – is one of our top contributors. He has been chosen to be the Ambassador of the Month. We’ve asked him to answer a few questions. About you Three words to best describe you: Workaholic, [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/">Meet Krystian, Ambassador of the month | October 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>With 49 contributions on GitHub and 1147 active posts on the forum, Krystian – one of our Ambassadors from Poland – is one of our top contributors. He has been chosen to be the Ambassador of the Month. We’ve asked him to answer a few questions.<span id="more-22258"></span></p>
+<h2><span style="color: #c6005b;">About you</span></h2>
+<p><strong>Three words to best describe you:</strong><br />
+Workaholic, geek and confident.</p>
+<p><strong>If you were to write a book about yourself, what would you name it?<br />
+</strong>Maybe just “Krystian Podemski” <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" /> </p>
+<p><strong>What is your hidden talent?</strong><br />
+I don&#8217;t think I have, back in the days I was good at football</p>
+<p><strong>A favorite line from a movie? </strong><br />
+“Don’t wait for things to get easier, simpler, better. Life will always be complicated.’ Learn to be happy right now. Otherwise, you’ll run out of time.” – Intouchables (French movie)</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong><br />
+For sure it would be a Madrid, I’m huge Real Madrid fan! ⚽</p>
+<h2><span style="color: #c6005b;">About your country</span></h2>
+<p><strong>What is your favorite local food or drink?</strong><br />
+In Poland we have something called “Kotlet Schabowy”, and yeah, it’s amazing.</p>
+<div id="attachment_22262" style="width: 623px" class="wp-caption alignnone"><img class="size-full wp-image-22262" alt="Koklet Schabowy – credits: agnieszkacrow" src="https://www.prestashop.com/blog/en/files/2016/10/30280441966_dc05455bcc_o.jpg" width="613" height="423" /><p class="wp-caption-text">Kotlet Schabowy – credits: Piviso</p></div>
+<p><strong>Give us a fun fact about your country:<br />
+</strong>Most Poles watch “<a href="https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg" target="_blank">Home Alone</a>” during the Christmas period. Every. Single. Year!</p>
+<h2><span style="color: #c6005b;">About PrestaShop</span></h2>
+<p><strong>What is your favorite PrestaShop store?</strong><br />
+I don’t think I have one. As a programmer I review the shops in a different way than other people, I’ve seen so many PrestaShop stores that it’s hard to choose only one!</p>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong><br />
+PrestaShop is one of the two most popular open source software solutions in Poland. PrestaShop is easy-to-use, stable and visually appealing, and that’s what makes people love it so much.</p>
+<p>Additionally, PrestaShop is surrounded by a great community and its service is completed by all the local addons offered on its marketplace.</p>
+<p><strong>How do you help the Polish community know about PrestaShop?</strong><br />
+You can find me on the <a href="https://www.prestashop.com/forums/forum/227-polskie-forum/" target="_blank">Polish PrestaShop forum</a> and on a few Facebook groups where I help members and answer their questions about PrestaShop. Although most of the time I’m trying to help by improving PrestaShop with useful Addons, by making Pull Request on <a href="https://github.com/PrestaShop" target="_blank">GitHub</a> to fix bugs or just by reporting issues on the <a href="http://forge.prestashop.com/secure/Dashboard.jspa" target="_blank">Forge</a>.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong><br />
+Many good changes, especially for developers, which means that we can expect even better Addons and Themes for PrestaShop. Thanks to the new architecture and many improvements in the back-office, using PrestaShop should be even easier and faster than it was in 1.6.</p>
+<p>I agree that we can describe PrestaShop with two sentences: Sell faster, Create faster.</p>
+<p>Both merchants and developers should be happy with <a href="https://www.prestashop.com/en/1.7" target="_blank">PrestaShop 1.7</a>!</p>
+<p><strong>How did you personally contribute to the development of PrestaShop 1.7?</strong><br />
+As I have been working with PrestaShop over 8 years, I’m trying to use my experience and give the best feedback possible related to the new version on <a href="https://gitter.im/PrestaShop/General" target="_blank">Gitter</a> (chat for developers) on the Forum and during Skype conferences with the PrestaShop team.</p>
+<h2><span style="color: #c6005b;">About being an Ambassador</span></h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong><br />
+Be chosen Ambassador of the month. Also, when I was not yet ambassador, for sure I have been proud to be on the list of the top 40 PrestaShop contributors.</p>
+<p><strong>What do you like the most about being an Ambassador?</strong><br />
+Great contact with the PrestaShop Team and the fact that people trust more my opinions and recommendations.</p>
+<p><strong>A last word?</strong><br />
+I wish everyone high conversion in your PrestaShop stores!</p>
+<p>Thank you very much Krystian!</p>
+<p>Find out more about <a href="http://ambassadors.prestashop.com/ambassador/krystian-podemski" target="_blank">Krystian&#8217;s profile</a><br />
+Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form" target="_blank">Apply now </a></p>
+<p>See you next month</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/">Meet Krystian, Ambassador of the month | October 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-krystian-ambassador-month-october-2016/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Le Slip Français Explains Its Phenomenal Success</title>
+		<link>https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/</link>
+		<comments>https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/#comments</comments>
+		<pubDate>Tue, 25 Oct 2016 07:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Success Stories]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22239</guid>
+		<description><![CDATA[<p>&#8220;If you want to change the world, start by changing your briefs&#8221;. The slogan says a lot about the identity and reputation of Le Slip Français, known for their made-in-France briefs — but not just that! Le Slip Français was launched through PrestaShop by Guillaume Gibault five years ago, and has achieved phenomenal success both [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/">Le Slip Français Explains Its Phenomenal Success</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>&#8220;If you want to change the world, start by changing your briefs&#8221;.<br />
+The slogan says a lot about the identity and reputation of Le Slip Français, known for their made-in-France briefs — but not just that!<span id="more-22239"></span></p>
+<p>Le Slip Français was launched through PrestaShop by Guillaume Gibault five years ago, and has achieved phenomenal success both in France and around the world! It’s all thanks to a unique product, an original communications strategy, and a strong product identity.<br />
+In this interview Clément Coignac, E-Commerce Director at Le Slip Français, explains the keys to success for this unique company, and offers some valuable advice to you, the e-retailers!</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/1T8YOcTRLWk?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=leslipfrancais"> Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/">Le Slip Français Explains Its Phenomenal Success</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/le-slip-francais-explains-phenomenal-success/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Christmas 2016: PrestaShop is here to help you prepare for the online shopping season!</title>
+		<link>https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/</link>
+		<comments>https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/#comments</comments>
+		<pubDate>Thu, 20 Oct 2016 13:53:52 +0000</pubDate>
+		<dc:creator><![CDATA[Camille Sila]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22201</guid>
+		<description><![CDATA[<p>Do you hear the sound of jingle bells? Yes… the countdown to the 2016 holiday season has started and so have PrestaShop #JingleDays ! From November through January, we’re here to help you during the busiest online shopping season of the year! We know the next few weeks will be very busy for you. Our blog posts, Facebook [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/">Christmas 2016: PrestaShop is here to help you prepare for the online shopping season!</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Do you hear the sound of jingle bells? Yes… the countdown to the 2016 holiday season has started and so have PrestaShop <strong>#JingleDays</strong> ! From November through January, we’re here to help you during the busiest online shopping season of the year! <span id="more-22201"></span></p>
+<p>We know the next few weeks will be very busy for you. Our <strong>blog posts, Facebook Live, videos and contests are designed to give you some fast and helpful tips and yes</strong>… there will be a few fun surprises along the way!</p>
+<p>Follow us on <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a> with <strong><a href="https://twitter.com/search?q=%23JingleDays&amp;src=typd" target="_blank">#JingleDays</a></strong> and our <a href="https://www.facebook.com/prestashop/" target="_blank">Facebook</a> page so you get all of the advice, tips, and tools that you need for this ecommerce season.</p>
+<p>Let’s start immediately with the<strong> Ecommerce Christmas Checklist</strong>. This comprehensive checklist will help you to get organized and track your progress from now until the January sales are over.</p>
+<p><a href="https://www.prestashop.com/blog/en/files/2016/10/Checklist_marketing2-3.jpg"><img class="aligncenter size-full wp-image-22202" alt="Xmas ecommerce checklist" src="https://www.prestashop.com/blog/en/files/2016/10/Checklist_marketing2-3.jpg" width="1200" height="3610" /></a></p>
+<h3 style="text-align: center;"></h3>
+<p>&nbsp;</p>
+<p style="font-size: 20px; text-align: center;"><strong><span style="color: #f00e6d;">Get our next ecommerce checklist!</span></strong></p>
+<p style="font-size: 20px; text-align: center;"><strong><span style="color: #f00e6d;">Subscribe to our newletter ⬇️</span></strong></p>
+<p style="text-align: center;">
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/">Christmas 2016: PrestaShop is here to help you prepare for the online shopping season!</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/christmas-2016-prestashop-help-prepare-online-shopping-season/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Get funded to develop plugins with PrestaShop</title>
+		<link>https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/</link>
+		<comments>https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/#comments</comments>
+		<pubDate>Tue, 18 Oct 2016 09:27:51 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22195</guid>
+		<description><![CDATA[<p>Last year, PrestaShop launched a $1,000,000 integration fund to give developers worldwide the resources needed to create modules for their local markets. In today’s video, you’ll learn more about the fund from developers themselves and how to apply today to improve PrestaShop in your region! Apply now</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/">Get funded to develop plugins with PrestaShop</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Last year, PrestaShop launched a $1,000,000 integration fund to give developers worldwide the resources needed to create modules for their local markets. In today’s video, you’ll learn more about the fund from developers themselves and how to apply today to improve PrestaShop in your region!<br />
+<span id="more-22195"></span></p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/6Pf_jkYQlL0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="http://bit.ly/2e0edfl">Apply now</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/">Get funded to develop plugins with PrestaShop</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/get-funded-develop-plugins-prestashop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to improve user experience to boost conversions</title>
+		<link>https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/</link>
+		<comments>https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/#comments</comments>
+		<pubDate>Tue, 11 Oct 2016 06:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah De Castro]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22188</guid>
+		<description><![CDATA[<p>Learn from the expert! Olivier Sauvage, founder of Capitaine Commerce blog, gives some handy tips to improve your online store that you can implement immediately. While simplicity, engagement, emotion and interactivity may seem like empty terms every eMarketer is throwing around, Olivier gives us the real-world action plan to make sure these factors are optimized [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/">How to improve user experience to boost conversions</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Learn from the expert! Olivier Sauvage, founder of Capitaine Commerce blog, gives some handy tips to improve your online store that you can implement immediately.<span id="more-22188"></span></p>
+<p>While simplicity, engagement, emotion and interactivity may seem like empty terms every eMarketer is throwing around, Olivier gives us the real-world action plan to make sure these factors are optimized on your site. eCommerce is becoming ever increasingly competitive so knowing how to truly engage with your sites visitors is essential.</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/YInc0BTnyD0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&#038;utm_medium=article&#038;utm_campaign=youtube&#038;utm_content=capitaine"></i> Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/">How to improve user experience to boost conversions</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/improve-user-experience-boost-conversions/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Meet Sagar, Ambassador of the month &#124; September 2016</title>
+		<link>https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/#comments</comments>
+		<pubDate>Mon, 03 Oct 2016 11:28:41 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22178</guid>
+		<description><![CDATA[<p>With the ongoing growth of our Ambassador community, we are delighted to announce a new category of post named &#8220;Ambassador of the month&#8221; to show our appreciation to our Ambassadors. This post is the first of a long series of posts about them for you to get to know them better. Each month, we’ll interview [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/">Meet Sagar, Ambassador of the month | September 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>With the ongoing growth of our Ambassador community, we are delighted to announce a new category of post named &#8220;Ambassador of the month&#8221; to show our appreciation to our Ambassadors. This post is the first of a long series of posts about them for you to get to know them better. Each month, we’ll interview one of them. After organizing a student workshop and a community meetup in Kathmandu in September, <a href="http://ambassadors.prestashop.com/ambassador/hem-sagar-pokhrel" target="_blank">Sagar</a> – our Ambassador in <a href="https://www.meetup.com/PrestaShop-Kathmandu-Ecommerce-Meetup/" target="_blank">Nepal</a> – has been chosen to be the first Ambassador of the Month. We’ve asked him to answer a few questions.<span id="more-22178"></span></p>
+<h2><span style="color: #dd1068">About you</span></h2>
+<p><strong>Three words to best describe you:</strong><br />
+Techno-geek, hardworking, and team-player.</p>
+<p><strong>If you were to write a book about yourself, what would you name it?</strong><br />
+Life of a Geek <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+<p><strong>What is your hidden talent?</strong><br />
+I’m an excellent swimmer and I love writing.</p>
+<p><strong>A favorite line from a movie?</strong><br />
+It’s from my favorite movie “October Sky”.</p>
+<p>Homer (Jake Gyllenhaal) to his dad John (Chris Cooper): “I may not be the best, but I come to believe that I got it in me to be somebody in this world. And it&#8217;s not because I&#8217;m so different from you either. It&#8217;s because I&#8217;m the same. I mean, I can be just as hard-headed, and just as tough. I only hope I can be as good a man as you. Sure, Werner von Braun is a great scientist but he isn&#8217;t my hero.”</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong></p>
+<p>In that case, I would like to escape out from the earth and spend a week or more in space. You will probably see my video featured in www.spaceadventures.com where I’ll be taking a selfie in Preston’s outfit. <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+<p>The reason is simple. I believe that we, living beings, are sharing a common home called earth. Why not going beyond and exploring our surroundings? ☺</p>
+<h2><span style="color: #dd1068">About your country</span></h2>
+<p><strong>What is your favorite local food or drink?</strong><br />
+MoMo with Coca-Cola Combo. MoMo is a type of steamed dumpling filled with meat or vegetables and is one of the most popular fast food in Nepal.</p>
+<p><img class="alignnone size-full wp-image-22179" alt="Momo - Nepal - credits Megara Tegal" src="https://www.prestashop.com/blog/en/files/2016/10/Momo-Nepal-credits-Megara-Tegal.jpg" width="960" height="636" /></p>
+<p>Chicken momos – credits: Megara Tegal</p>
+<p><strong>Give us a fun fact about your country:</strong></p>
+<p>Nepal is the home of a living goddess we call “Kumari”.</p>
+<p>Kathmandu valley alone has 7 World Heritage Sites. You may not need to visit any cultural museum being here, the whole Kathmandu valley is one. ☺</p>
+<p>Another fun fact: slaughtering cow is prohibited in my country as over 80% of Nepal’s population is of Hindu religion and worships cow as god. So, you won’t get any beef items here!</p>
+<h2><span style="color: #dd1068">About PrestaShop</span></h2>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong></p>
+<p><strong></strong>The PrestaShop community is currently being established in Nepal. We are doing our best to grow a strong PrestaShop community and create opportunities for designers, developers as well as merchants.</p>
+<p>The open-source philosophy of PrestaShop allows to get engaged with a community and meetups allow to network with like-minded peoples and solve related issues for those who want to get into Ecommerce.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong></p>
+<p>PrestaShop 1.7 is light, cool and simple with an elegant Startup theme including bootstrap 4 framework along with a user-friendly back-office interface.</p>
+<p>Regarding the new back-office: take a tour part, quick access, and redesigned interface are what I found awesome compared to the previous one. Interface changes are more user-friendly and easy-to-use. Adding and managing product section is also better than the previous versions.</p>
+<p>The product display in front-office and the category section are more pleasing than prior. Changes in the main navigation menu are remarkable. <strong>This will surely help novice users to use Prestashop easily and merchants to sell faster.</strong></p>
+<p>Lastly, introducing Symfony framework in 1.7 is a real incentive for developers to code better, to maintain coding standards and to easily develop new modules.</p>
+<h2><span style="color: #dd1068">About being an Ambassador</span></h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong></p>
+<p>Forming Nepal’s PrestaShop community, organizing workshops, meetups and finally being recognized as the first “Ambassador of The Month” is the proudest moment for me. Also, after being introduced as a PrestaShop ambassador, I was recently invited by a renowned businessman in town to discuss on future possibilities. He also offered me to join his team. ☺</p>
+<p><strong>What do you like the most about being an Ambassador?</strong></p>
+<p>It provides me with the opportunity to showcase my skills and expertise to the community, meet like-minded people, expand my network and contribute somehow to the tech ecosystem of my country.</p>
+<p>I recently joined <a href="https://crowdin.com/project/prestashop-official" target="_blank">Crowdin</a> and started to <a href="https://twitter.com/NepaliSagar/status/781851252556607488" target="_blank">contribute</a> in translating PrestaShop in Nepali language as well.<br />
+Lastly, I like attending webinars with the awesome PrestaShop Team and getting exclusive information about the upcoming releases.</p>
+<p><strong>A last word? </strong></p>
+<p>Try it! PrestaShop is a great option for all of those who want to get into Ecommerce.</p>
+<p>Whether you are a designer, a developer, a merchant, a web agency, a teacher, a student, or a future entrepreneur, I recommend that you try this awesome tool once. Trust me, you won’t be disappointed.</p>
+<p><strong>Thank you very much Sagar!</strong></p>
+<p>Find out more about <a href="http://ambassadors.prestashop.com/ambassador/hem-sagar-pokhrel" target="_blank">Sagar’s profile</a> and <a href="https://www.meetup.com/PrestaShop-Kathmandu-Ecommerce-Meetup/" target="_blank">join his meetup group</a>!</p>
+<p>Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form" target="_blank">Apply now</a>.</p>
+<p>See you next month <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/">Meet Sagar, Ambassador of the month | September 2016</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-sagar-ambassador-month-september-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[New Benchmark Report] Why Mobile is a Must for PrestaShop Fashion Retailers</title>
+		<link>https://www.prestashop.com/blog/en/new-benchmark-report-mobile-must-prestashop-fashion-retailers/</link>
+		<comments>https://www.prestashop.com/blog/en/new-benchmark-report-mobile-must-prestashop-fashion-retailers/#comments</comments>
+		<pubDate>Wed, 28 Sep 2016 09:20:50 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Trends]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22161</guid>
+		<description><![CDATA[<p>Fashion, the industry that makes up a huge chunk of global ecommerce world, is characterized by spur of the moment purchasing decisions, short buying cycles and a wide arrange of products, categories, brands and price points. All of this makes it an exciting and interesting industry to work in and benchmark specifically looking at the [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/new-benchmark-report-mobile-must-prestashop-fashion-retailers/">[New Benchmark Report] Why Mobile is a Must for PrestaShop Fashion Retailers</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Fashion, the industry that makes up a huge chunk of global ecommerce world, is characterized by spur of the moment purchasing decisions, short buying cycles and a wide arrange of products, categories, brands and price points. <span id="more-22161"></span>All of this makes it an exciting and interesting industry to work in and benchmark specifically looking at the evolving online performance. Due to its competitive nature, the fashion industry is also one that requires introspection and awareness into current trends to succeed.</p>
+<p>A new benchmark report by PrestaShop’s official partner Nosto set out to not only paint a picture of the European online fashion industry as it stands in 2016, but to also provide fashion (and why not other) retailers with actionable advice for future success. A total of 241 million visits were analyzed for the report and this post will introduce you the key findings of 2015-2016 trends and KPIs, as well as insight around device use to drive multi-channel strategies.</p>
+<p><img class="alignnone size-full wp-image-22164" alt="revenue_by_area" src="https://www.prestashop.com/blog/en/files/2016/09/revenue_by_area.png" width="645" height="408" /></p>
+<p><strong>On average the European Fashion industry* saw a 16.7% increase in online revenue &#8211; Mobile is on the rise</strong></p>
+<p>Some of the most interesting findings from the new report suggest that the European fashion industry keeps growing in terms of online sales. The biggest growth can be seen in Germany, while Spain and the Nordics see a more conservative growth. The small uplift for Nordics might be explained by a growth curve that’s gradually reaching saturation for online savvy shoppers.</p>
+<p>While 66% of all online revenues still come from desktop &#8211; mobile finally overtook tablet as the second-highest revenue generating 18% of all online revenues. The Nordics, the UK and Spain all saw mobile growth substantial enough for it to overtake tablet as the second-highest revenue generating channel in their area. The Nordics saw the highest percentage (21%) of its total revenue coming from this channel while Germany saw the lowest activity from mobile users.</p>
+<p><img class="alignnone size-full wp-image-22166" alt="revenue_by_device" src="https://www.prestashop.com/blog/en/files/2016/09/revenue_by_device.png" width="1136" height="673" /></p>
+<p><strong>Visits vs conversion still differ significantly depending on device</strong></p>
+<p>Conversion is by far one of the most important KPIs for success for an online business. With high competition and increasing customer acquisition costs, if someone lands on your site, it is important to make sure they actually convert into a paying customer.</p>
+<p>Almost across the board there have been increases in conversion from 2015 to 2016, with the European average now sitting at 2.32%</p>
+<p>Reflecting the trends that were evident for revenue, mobile traffic had the largest percentage increase for all geographies &#8211; with a 10% average increase across Europe as a whole. This suggests people browse more and more on the go, but what happens when we break down conversion by device?</p>
+<p><img class="alignnone size-full wp-image-22167" alt="cr_split_across_device" src="https://www.prestashop.com/blog/en/files/2016/09/cr_split_across_device.png" width="1136" height="690" /></p>
+<p>As may now be expected, the device results for conversion reflect what we have seen with traffic and revenue in terms of extensive mobile growth &#8211; with the European average seeing a massive 25% increase in mobile conversion. Unfortunately however even with the whopping jump in mobile conversions, the CR still sits at 1.70% compared to the overall average of 2.32%. These results indicate that the mobile experience, specifically the ease of mobile checkout, is improving, but that there’s still a lot to be done while designing the mobile experience.</p>
+<p><strong>Key takeaways</strong></p>
+<p>While the report suggests fashion shopping over especially mobile is increasing at a rapid pace, fashion businesses should place mobile at focus when planning their multi-channel strategies.</p>
+<p>Mobile visitors are key contributors to ecommerce growth, not only to its growth in traffic. And while mobile users might not boast the same conversion rates as tablet and desktop users, the rate at which mobile conversions are increasing is a clear indication that mobile optimization especially for the European fashion scene is a must.</p>
+<p>A key indication that the benchmark report suggests is that while the rise of mobile has been happening for years, 2017 might become the year when mobile users finally reach the same level of conversion as the overall figure figuratively transforming them from window shoppers to paying customers.</p>
+<p>Putting your shoppers at the center of your ecommerce strategy never goes out of style. This is why taking in and planning around the newly revealed trends, especially around mobile, is key when growing your business in early 2017 and beyond.</p>
+<p>Read more about the European ecommerce fashion trends, the KPIs and most importantly what to do about them in the Benchmark report ‘<a href="https://goo.gl/3MbfON" target="_blank">European online fashion in 2016 &#8211; A benchmark report and recommendations for growth</a>’. The report is analyzes the data from a total of 241 million visits in 700 fashion stores across the Nordics, France, Spain, Germany and the UK.</p>
+<p>Boost the performances of your website thanks to the Nosto module ‘The Complete Personalization Solution for PrestaShop’. This module is already pre-installed and ready for use in the PrestaShop solution. Benefit from a <a href="http://addons.prestashop.com/en/18349-nostotagging.html?utm_source=blogPS&#038;utm_campaign=nosto-mobile&#038;utm_content=en" target="_blank">14 days free</a> trial and get started today!</p>
+<p><a href="https://goo.gl/3MbfON" target="_blank"><img class="alignnone size-full wp-image-22168" alt="cta_fashionrep" src="https://www.prestashop.com/blog/en/files/2016/09/cta_fashionrep.png" width="600" height="283" /></a></p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/new-benchmark-report-mobile-must-prestashop-fashion-retailers/">[New Benchmark Report] Why Mobile is a Must for PrestaShop Fashion Retailers</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/new-benchmark-report-mobile-must-prestashop-fashion-retailers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>4 pieces of advice for an effective return policy</title>
+		<link>https://www.prestashop.com/blog/en/4-pieces-advice-effective-return-policy/</link>
+		<comments>https://www.prestashop.com/blog/en/4-pieces-advice-effective-return-policy/#comments</comments>
+		<pubDate>Tue, 27 Sep 2016 08:31:45 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22156</guid>
+		<description><![CDATA[<p>The return of merchandise is a major issue in e-commerce, because it is one of the main obstacles to your clients&#8217; online purchases. Fast delivery is simply not enough! Nowadays, online buyers need a simple return policy, to reassure and persuade them to make their purchase. Your return policy must therefore be outlined from the [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/4-pieces-advice-effective-return-policy/">4 pieces of advice for an effective return policy</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>The return of merchandise is a major issue in e-commerce, because it is one of the main obstacles to your clients&#8217; online purchases. Fast delivery is simply not enough!<br />
+<span id="more-22156"></span><br />
+Nowadays, online buyers need a simple return policy, to reassure and persuade them to make their purchase.</p>
+<p>Your return policy must therefore be outlined from the beginning, since it is a major factor in the growth of your business.<br />
+In this video, Léonore Dobbelaere, marketing director of Colissimo&#8217;s business offer, will give you four essential pieces of advice for a reliable return policy.</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/r5P3R-TjX04?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&#038;utm_medium=article&#038;utm_campaign=youtube&#038;utm_content=colissimo"></i> Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/4-pieces-advice-effective-return-policy/">4 pieces of advice for an effective return policy</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/4-pieces-advice-effective-return-policy/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to import and export to China in a fast and cost effective way?</title>
+		<link>https://www.prestashop.com/blog/en/import-export-china-fast-cost-effective-way/</link>
+		<comments>https://www.prestashop.com/blog/en/import-export-china-fast-cost-effective-way/#comments</comments>
+		<pubDate>Mon, 26 Sep 2016 11:56:53 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22136</guid>
+		<description><![CDATA[<p>Background：How large is the market? 1. In 2014, China’s e-Commerce took center stage, when the world witnessed for the first time another country outspending the USA in annual online sales transactions. According to the latest data releases, Chinese cross-border online shopping will reach $85 billion by the end of 2016 in spending, almost three times [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/import-export-china-fast-cost-effective-way/">How to import and export to China in a fast and cost effective way?</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Background：How large is the market?</h2>
+<p>1. In 2014, China’s e-Commerce took center stage, when the world witnessed for the first time another country outspending the USA in annual online sales transactions. According to the latest data releases, Chinese cross-border online shopping will reach $85 billion by the end of 2016 in spending, almost three times as much as $30 billion in 2014. By 2017 this data will increase by 12%, up to $110 billion . <span id="more-22136"></span>After 2020 it will be as high as $160 billion. Chinese spend an average of $473 on imported goods, higher than the spending of domestic goods. While the Chinese purchase volume per shopper is leading the world, the number of online shoppers in China is still astoundingly large; yet the number presented is only half of the Chinese population and not taken as the whole of the Chinese population which is roughly 1.4 billion.</p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-22137" alt="Pilibaba_Sucess_Story01" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story01.png" width="537" height="308" /><br />
+<img class="alignnone size-full wp-image-22138" alt="Pilibaba_Sucess_Story02" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story02.png" width="404" height="329" /></p>
+<p>2. These achievements were reached in only 5 years and is still showing a booming online market growth. Many would think the reason is due to China’s massive population; however, on average the typical Chinese e-Consumer purchases twice as much online than the average American does, which has already become the highest rate for purchasing online.</p>
+<p><img class="size-full wp-image-22142 aligncenter" alt="Pilibaba_Sucess_Story03" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story03.png" width="555" height="389" /></p>
+<p>3.China e-Commerce is still fairly new and already there is a strong demand for authentic imported products, categorized mainly in foods, cosmetics, electronics, health, baby products and commodity products on the market.  In the smaller/medium sized cities of China, it can be quite difficult to find some familiar brands, which makes online shopping perfect for the consumer.</p>
+<p>Online and mobile sales channels are growing with an unstoppable momentum driven by advances in mobile technologies such as online and mobile payment and their integration with the existing supply chain infrastructure offered by the global groups &amp;merchants, with an unprecedented opportunity to access China&#8217;s markets.</p>
+<p>Furthermore, a study by McKinley in 2014 suggests that these markets are largely for cosmetic, packaged foods, infant products, and electronic commodities. The people purchasing these products are predominantly middle class Chinese citizens. These often non-discretionary goods for Chinese middle-class folk could just be the beginning.</p>
+<p>Why not just buy in Stores?</p>
+<p>Chinese consumers trust e-tail authenticity. Although the Chinese consumer culture is very deal conscious (often meticulously comparing prices), more Chinese consumers are turning to online shopping to find their authentic brand products imported from abroad. Sites such as Tmall and Jingdong have gained consumer trust for foreign product quality. The expanded range of product variety is also becoming one of the main selling points for Chinese consumers and is getting them to turn to their computer for online purchases rather than going to the shops. Put simply, when it comes to foreign imported goods, the Chinese are finding that there is more of a variety in products with cheaper prices for authentic products on Chinese e-Commerce websites, making online purchasing more acceptable.</p>
+<p>4. New policies and infrastructures are being set up to support B2C Cross Border e-Commerce (CBEC) models in China. Deregulation on registration and customs for imports into China are being processed and tax exemptions on a wide selection of goods are also being implemented by the Chinese government for the near future. Until then, it seems that selling online in China for foreign enterprises will only continue to show strong growth. Especially with the 7 e-Commerce zones and 6 e-Commerce pilot cities that are established there. Also, new and exciting opportunities for importing and exporting goods to and from China are on the rise which many online retailers have come to realize, or are starting to,  just how huge the market potential is for e-Commerce in China. Companies such as Net-a-porter, Yoox, Rakuten are available on a Chinese page, offering a complete localized shopping journey from product description, payment and delivery to the Chinese audience.</p>
+<p><img class="size-full wp-image-22143 aligncenter" alt="Pilibaba_Sucess_Story04" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story04.png" width="692" height="440" /></p>
+<p><strong>If e-commerce to China has been a hot land that western online retailers hope to have a slice of , then for those small and medium businesses, right now has to be the time to react and prepare for entry.</strong></p>
+<p><strong>Question: Is it hard to sell to China?</strong></p>
+<p><strong>Block 1: Payment</strong></p>
+<p>Instead of having to hire a developer to handle the installment or offer abundant materials to apply for an account- Pilibaba’s quick register takes seconds. Pilibaba plug-in in Shopware will only take small and medium business owners minutes to install without help of a professional. Through one-click enabler you can be immediately integrated with Alipay and Wechat/Tenpay/UnionPay that can cover 100% of Chinese consumers’ payments. It’s simple, fast and, most importantly, it’s free to install. It even supports withdrawal before shipment which is 100% safe and trustworthy. Pilibaba is invested in by the Provincial Goverment of Jiangsu, China.</p>
+<p><img class="size-full wp-image-22146 aligncenter" alt="Pilibaba_Sucess_Story05" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story05.png" width="589" height="180" /></p>
+<p><strong>Block 2: Language</strong></p>
+<p>It’s not easy to have a team to work on the Chinese description of your existing sites. If you plan on creating another shop on a third-party platform in China it will be another huge burden to deal with, primarily all the uploading and translation. Pilibaba offers localized product descriptions to get the ball rolling with your existing contents, making your product more attractive and coherent for customers. With a click on the redirecting button customers can reach your page to finish the order.</p>
+<p><strong>Block 3: Marketing</strong></p>
+<p>Apparently, payment can support orders but it won’t bring traffic in unless you spend time and money on ads and promotion this will be another trouble for westerners: finding out how to market. The Chinese social media landscape is really sophisticated and complex and so, for western merchants, especially start-ups, it’s nearly impossible to find out what to target.<br />
+Pilibaba have publishers in over 20 channels, you can get free exposure and traffic from the moment you click to install Pilipay API. Pilibaba offers regular campaigns and coupons at no cost to raise conversion.</p>
+<p><strong>How Does Pilibaba Drive traffic to your site?</strong></p>
+<p style="text-align: center;"><a href="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story06.png" target="_blank"><img class="size-full wp-image-22144 aligncenter" alt="Pilibaba_Sucess_Story06" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story06.png" width="274" height="1525" /></a></p>
+<p><strong>Block 4:Logistics</strong></p>
+<p>If you have no clear idea how to deliver your goods to customers in China at a reasonable cost, and you hope to avoid troublesome Chinese Custom regulations, you have come to the right place.</p>
+<p>It’s not too easy to sell to China for a few reasons; customers have so much choice in cost comparison and parcels have a tendency to be returned by customs because of limits on imported commodities.</p>
+<p>What if a simple payment could help keep you away from direct delivery to end customers leaving you only having to deliver to a domestically located warehouse? Pilibaba can help you deal with customs compliance, also for a regulated amount of orders and category Pilibaba will give clear hints to customers to be compliant with the latest regulations. What’s the most important Pilibaba ships your goods at the most competitive cost to help convert orders!</p>
+<p><img class="size-full wp-image-22147 aligncenter" alt="Pilibaba_Sucess_Story07" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story07.png" width="546" height="254" /></p>
+<p><img class="size-full wp-image-22148 aligncenter" alt="Pilibaba_Sucess_Story08" src="https://www.prestashop.com/blog/en/files/2016/09/Pilibaba_Sucess_Story08.png" width="464" height="255" /></p>
+<p><strong>Block 5: After-Sale Service</strong></p>
+<p>Many customers hesitate to buy from overseas due to the weak after-sale service. Most of them cannot write or speak foreign language. Our Pilibaba service team are ready for complaints and inquiries, they can then communicate well with merchants to solve every last concern of consumers. To shop from overseas sites will be as simple as they have already been doing from Chinese online shops.</p>
+<p>After getting perfect solution to clear above blocks, you are ready to thrive in the Chinese market. Through completed and professional marketing work your brand awareness and sales can be raised at no cost before you get an order. Pilibaba will be the easiest and most efficient first step of your business penetrating China&#8217;s Market.</p>
+<hr />
+<p>&nbsp;</p>
+<p><strong>About Pilibaba:</strong></p>
+<p>Pilibaba was founded in Aug,2014 by CEO Keen Sun Jian and was invested by Jiangsu State Government, 7seasVC (founded by former Tencent CTO-Jeff Xiong and former Sina CTO-Jack Xu) and one China famous family fund. Pilibaba is the stategy partner of China UnionPay International. You can download the free Alibaba plug-in for your online shop <a href="http://addons.prestashop.com/en/22443-1-click-sell-all-in-one-solution-to-china-pilibaba.html" target="_blank">here</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/import-export-china-fast-cost-effective-way/">How to import and export to China in a fast and cost effective way?</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/import-export-china-fast-cost-effective-way/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>European VAT on distance selling</title>
+		<link>https://www.prestashop.com/blog/en/european-vat-distance-selling/</link>
+		<comments>https://www.prestashop.com/blog/en/european-vat-distance-selling/#comments</comments>
+		<pubDate>Wed, 21 Sep 2016 12:33:06 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+		<category><![CDATA[VAT]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22127</guid>
+		<description><![CDATA[<p>VAT (the acronym for Value Added Tax) is a consumption tax applied in all Europe by each European state (meaning “country”) at different rates (ranging from 15% in Luxembourg to 27% in Hungary), albeit under common rules. VAT must be embedded in the retail price. There is a specific VAT regime concerning distance selling of [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/european-vat-distance-selling/">European VAT on distance selling</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>VAT (the acronym for Value Added Tax) is a consumption tax applied in all Europe by each European state (meaning “country”) at different rates (ranging from 15% in Luxembourg to 27% in Hungary), albeit under common rules. VAT must be embedded in the retail price.</p>
+<p>There is a specific VAT regime concerning distance selling of products within Europe. It applies only to business to consumer (B2C) sales and can be summarized (inasmuch as possible!) in the following way.</p>
+<p>Distance selling means sales to consumers: individuals making the purchase outside of any business or profession.<br />
+<span id="more-22127"></span><br />
+<strong>Domestic sales<br />
+</strong></p>
+<p>For sales within the boundaries of a single EU country (for instance, a using a warehouse in the United Kingdom to ship parcels to British consumers), VAT will always apply according to the invoicing rules and the applicable VAT rate of that country (in our case, the UK). Usually, a country applies multiple VAT rates and some products are even VAT-exempt (in the UK, child apparel).</p>
+<p>When using a warehouse in another EU country, a merchant will need, in most cases, to register for VAT in the country where the warehouse is located, regardless of the amount of sales carried out. There is no minimum turnover required.</p>
+<p>Qualified tax advice on the specific case is always highly recommended.</p>
+<p><strong>Cross-border sales between EU countries<br />
+</strong></p>
+<p>It gets a bit trickier with cross-border sales from a place of dispatch in one European country to consumers situated in other European countries. Everything depends from the yearly turnover made by the online merchant with cross-border sales to the specific EU country where the goods are delivered.</p>
+<p>Basically, the rule is the following:</p>
+<p><strong>1)</strong> Up to a specific yearly threshold of cross-border sales generated by our merchant from one European country (we will call it Country A) to consumers in another European country (Country B), VAT will (still) be applicable in Country A. These thresholds vary from destination country to destination country, usually ranging between Eur 35,000 and 100,000 per calendar year. Shipping expenses charged to consumers need to be included in the calculation.</p>
+<p>Let us make an example:</p>
+<p>An online merchant employs a U.K. warehouse to ship products from the UK to German consumers. The turnover threshold in Germany under the VAT distance selling regime is Eur 100,000.</p>
+<p>In year 2016, the merchant ships products from the UK warehouse to German consumers for a consolidated retail price of Eur 20,000 plus shipping expenses worth Eur 5,000=</p>
+<p>The Eur 100,000 threshold is clearly not met in 2016 and, thus, the merchant will apply UK VAT on all its 2016 sales, needing to be registered for VAT in the UK from the start and to make quarterly VAT payments to the UK tax authorities.</p>
+<p><strong>2)</strong> Everything changes when, during a calendar year, a merchant shipping from Country A exceeds the yearly threshold of sales to Country B for VAT purposes. In this case, starting from the date when the merchant exceeds the yearly threshold of Country B, they will need to apply VAT in Country B, and no longer in Country A, on all sales to consumers in Country B for the remaining part of that calendar year and in the subsequent one.</p>
+<p>Back to our example:</p>
+<p>In calendar year 2017, our merchant ships from the UK warehouse products to German consumers for a consolidated retail price of Eur 110,000 plus shipping expenses worth Eur 25,000=</p>
+<p>In this case, the yearly Eur 100,000 threshold is met and once the merchant such threshold, it will have to apply German VAT on all its subsequent sales to German consumers in both 2017 and 2018. For this purpose, it will be wise for the merchant to apply with the German tax authorities for the issuance of a German VAT number in slight advance, as the very one sale with which the merchant exceeds the threshold will be already subject to German VAT.</p>
+<p>It is not ended, though.</p>
+<p><strong>3)</strong> If during one of the following calendar years, our merchant, shipping from Country A, fails to reach the yearly revenue threshold of Country B, from the subsequent calendar year VAT will become applicable in Country A again, and no longer in Country B:</p>
+<p><em>In year 2018, our merchant ships products from the UK warehouse to German consumers for a consolidated retail price of only Eur 30,000 plus shipping expenses worth Eur 6,000=</p>
+<p>The merchant has not met the Eur 100,000 yearly threshold in distance sales to Germany. From the 1st of January 2019, they will apply UK VAT again as long as the yearly threshold is not exceeded again.</em></p>
+<p>This Euro 100,000 threshold applies to all sales from European countries to Germany. Other destination countries apply lower thresholds: Eur 35,000 in France and Spain, GBP 70,000 in the UK, etc.</p>
+<p>These are the thresholds:</p>
+<p>Austria € 35.000<br />
+Belgium € 35,000<br />
+Bulgaria 70,000 BGN<br />
+Croatia 270,000 HRK<br />
+Cyprus € 35,000<br />
+Czech Republic 1,140,000 CZK<br />
+Denmark 280,000 DKK<br />
+Estonia € 35,000<br />
+Finland € 35,000<br />
+France € 35,000<br />
+Germany € 100,000<br />
+Greece € 35,000<br />
+Hungary 8.800.000 HUF<br />
+Ireland € 35,000<br />
+Italy € 35,000<br />
+Latvia € 35,000<br />
+Lithuania € 35,000<br />
+Luxembourg € 100,000<br />
+Malta € 35,000<br />
+Netherlands € 100,000<br />
+Poland 160,000 PLN<br />
+Portugal € 35,000<br />
+Romania 118,000 RON<br />
+Slovakia € 35,000<br />
+Slovenia € 35,000<br />
+Spain € 35,000<br />
+Swede 320,000 SEK<br />
+United Kingdom £ 70,000</p>
+<p>As you can see, all merchants using a warehouse on European soil for fulfilment need to constantly monitor their EU cross-border sales and, potentially, to register and deregister for VAT purposes in various countries multiple times.</p>
+<p><strong>A solution to avoid this “administrative burden” is to exert an option with the local tax authorities in order to always apply VAT in Country B, that is where the products are delivered, regardless of the turnover in cross-border sales to to Country B. It is a choice expressly allowed by EU law. However, there may be discrepancies between the regulations of the various EU states.</strong></p>
+<p>Personal and tailored tax advice is always highly suggested!</p>
+<p><span style="text-decoration: underline">About the Author</span></p>
+<p>Alan Rhode is a co-founder at Taxmen.eu. Taxmen was established in 2012 to provide one-stop-shop compliance services for VAT on distance selling and environmental regulations on e-commerce packaging in all the European jurisdictions.  It has subsequently widened its tax activities, which now range from customs planning to transfer pricing. From 2014, the company provides legal services specifically tailored for the IT sector under the brand Lawmen.</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/european-vat-distance-selling/">European VAT on distance selling</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/european-vat-distance-selling/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

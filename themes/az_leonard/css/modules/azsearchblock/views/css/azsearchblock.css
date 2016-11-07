@@ -1,0 +1,120 @@
+.az_searchblock {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  height: 100%; }
+  .az_searchblock .icon-search {
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    height: 100%;
+    line-height: 55px;
+    width: 40px;
+    text-align: center; }
+  .az_searchblock .az_searchblock-container {
+    width: 370px;
+    padding: 0 10px;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: none;
+    z-index: 8; }
+    .az_searchblock .az_searchblock-container .azsb_query {
+      width: 100%;
+      height: 40px;
+      box-shadow: none;
+      border: none;
+      font-size: 13px;
+      font-weight: 300;
+      color: #939393;
+      padding: 0 25px 0 0;
+      background: transparent;
+      border-radius: 0;
+      font-style: italic; }
+      .az_searchblock .az_searchblock-container .azsb_query:focus, .az_searchblock .az_searchblock-container .azsb_query:hover {
+        box-shadow: none;
+        border: none; }
+    .az_searchblock .az_searchblock-container .azsb_selector_cat {
+      display: none;
+      height: 100%;
+      background: #fff;
+      font-size: 14px;
+      position: relative; }
+      .az_searchblock .az_searchblock-container .azsb_selector_cat label {
+        position: absolute;
+        margin: 0;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 48px;
+        font-size: 18px;
+        line-height: 48px;
+        text-align: center;
+        z-index: 2;
+        pointer-events: none;
+        cursor: pointer;
+        background: #fff; }
+    .az_searchblock .az_searchblock-container .azsb_cat {
+      border: none;
+      box-shadow: none;
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      width: 100%;
+      padding: 10px 15px;
+      cursor: pointer; }
+      .az_searchblock .az_searchblock-container .azsb_cat option {
+        padding: 5px 20px; }
+      .az_searchblock .az_searchblock-container .azsb_cat:hover {
+        box-shadow: none;
+        border: none; }
+    .az_searchblock .az_searchblock-container .azsb_button {
+      background: transparent;
+      color: #707070;
+      font-size: 14px;
+      border: none;
+      border-radius: 0;
+      position: absolute;
+      right: 0;
+      padding: 0;
+      width: 15px;
+      top: 12px; }
+      .az_searchblock .az_searchblock-container .azsb_button:hover, .az_searchblock .az_searchblock-container .azsb_button:focus {
+        box-shadow: none;
+        opacity: 1; }
+    .az_searchblock .az_searchblock-container .inputblock {
+      position: relative;
+      width: 100%;
+      background: transparent; }
+  .az_searchblock:hover .icon-search {
+    background: rgba(255, 255, 255, 0.2); }
+
+.ac_results {
+  width: 370px !important;
+  margin: 0 -10px; }
+
+.rtl .ac_results {
+  text-align: right;
+  direction: rtl; }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .az_searchblock .icon-search {
+    line-height: 50px; } }
+@media (max-width: 767px) {
+  .az_searchblock {
+    right: 0; }
+    .az_searchblock .icon-search {
+      line-height: 50px;
+      width: 50px; }
+
+  .rtl .az_searchblock {
+    left: 0;
+    right: auto; } }
+@media (max-width: 480px) {
+  .az_searchblock .az_searchblock-container {
+    width: 320px; } }

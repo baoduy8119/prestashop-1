@@ -1,0 +1,41 @@
+
+/********************************************************
+	System Tool AZ
+********************************************************/
+
+
+
+/* 2.Menu Fixed
+--------------------------------------------------------- */
+@media (min-width: 1200px){
+	
+	//-- Sticky Menu
+	.sticky_menu#header-menu {position:fixed;width:100%;z-index:90;top:0;left: 0;
+		-webkit-animation: animate-translate-top 1s;  -moz-animation: animate-translate-top 1s;  animation: animate-translate-top 1s;
+		.az_megamenu_wrap .navbar-nav > li .dropdown-menu {box-shadow: 1px 2px 2px #ddd !important;
+			.dropdown-menu {box-shadow: none !important}
+		}
+	}
+	
+	
+	//.Layout Box
+	body.layout-boxed #wrapper{width: 1200px;margin: 0 auto;background: #fff; box-shadow: 0 0 6px #777777; overflow: hidden;}
+}
+
+
+/* 2 .Live Theme Editor
+--------------------------------------------------------- */
+div.img-pattern, div.themeSkin  {
+	&.active, &.selected {border-color: $linkColor;}
+}
+#live-editor .title {background: $background;}
+
+/* 3. Zoom Image
+/*--------------------------------------------------------- */
+@media (max-width: 991px) {
+	div.zoomContainer {display: none;}
+}
+
+
+
+

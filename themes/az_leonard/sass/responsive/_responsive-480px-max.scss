@@ -1,0 +1,69 @@
+
+/* 5.Small devices Phones
+================================================== */
+@media (max-width: 480px){
+	
+	//-- Button Style
+	.btn, button, .button, input.button_mini,
+	input.button_small, input.button, input.button_large,
+	input.button_mini_disabled, input.button_small_disabled,
+	input.button_disabled, input.button_large_disabled,
+	input.exclusive_mini, input.exclusive_small,
+	input.exclusive, input.exclusive_large,
+	input.exclusive_mini_disabled, input.exclusive_small_disabled,
+	input.exclusive_disabled, input.exclusive_large_disabled,
+	a.button_mini, a.button_small, a.button, a.button_large, 
+	a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large,
+	span.button_mini, span.button_small, span.button,
+	span.button_large, span.exclusive_mini,
+	span.exclusive_small, span.exclusive, span.exclusive_large,
+	span.exclusive_large_disabled {padding: 7px 10px;}
+	
+	
+	//-- Product Listing
+	.content_sortPagiBar_top , .content_sortPagiBar_bottom {
+		.nbrItemPage {margin: 0;}
+		div.selector {width: 290px !important;}
+	}
+	.product_list .ajax_block_product {width: 100%;}
+	.product_list, .product_lists {
+		.product-image-container .product-image img {width: 100%;}
+	}
+	
+	
+	
+	//-- Product Detail
+	#quantity_wanted_p {margin: 0;}
+	.box-cart-bottom .buttons_bottom_block button {padding: 0 10px;}
+	.pb-right-column .comments_note .comments_advices {padding: 2px;}
+	#attributes .attribute_fieldset_1 {float: left;}
+	.box-cart-bottom .wishlist_button {margin: 0 3px;}
+	#product_full {
+		#views_block {width: 100%;
+			.slick-arrow.slick-next {right: 0;top: 32%;left: auto;bottom: auto;
+				&:after {content: "\f105";}
+			}
+			.slick-arrow.slick-prev {left: 0;top: 32%;
+				&:after {content: "\f104";}
+			}
+		}
+		.pb-left-column #image-block {width: 100%;margin: 0 0 15px;}
+	}
+	
+	
+	//RTL LANGUAGE
+	.rtl {
+		
+		//-- Product Listing
+		.content_sortPagiBar_top, .content_sortPagiBar_bottom {
+			.nbrItemPage {margin: 0;}
+		}
+		
+		//-- Product Details
+		#attributes .attribute_fieldset_1 {float: right;}
+		#product_full .pb-left-column #image-block {margin: 0 0 15px;}
+		#quantity_wanted_p {margin: 0;}
+		#product_left #views_block #thumbs_list {width: calc(100% + 34px);}
+		#product_left #views_block .thumbnail_image .fancybox {margin: 0 0 0 34px;}
+	}
+}

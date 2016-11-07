@@ -1,0 +1,207 @@
+/*******************************************************
+  Style Color
+********************************************************/
+
+//-- AZ User Info
+.header_user_info ul li a:hover {color: $linkColor;}
+
+//-- AZ Curency
+#currencies-block {
+	div.current:hover {
+		&:after {color: $linkColor;}
+		span {color: $linkColor;}
+	}
+}
+
+//-- AZ Language
+#languages-block {
+	div.current:hover {
+		&:after {color: $linkColor;}
+		span {color: $linkColor;}
+	}
+}
+
+//-- AZ Search Block
+.az_searchblock {
+	.az_searchblock-container {border-bottom: solid 2px $linkColor;
+		.azsb_button:hover {color: $linkColor;}
+	}
+}
+
+//-- AZ HomeSlider
+.az_homeslider {
+	.owl-dots .owl-dot:hover {background: $background !important;}
+	.owl-nav {
+		.owl-prev, .owl-next {
+			&:hover {color: $linkColor;border-color: $linkColor;}
+		}
+	}
+	.owl-item .azhomeslider-description .desc-inner .learnmore {background: $background;
+		&:hover {background: darken($background,10%);}
+	}
+}
+
+
+//-- AZ NewLetter
+#newsletter_block_home .form-group .buttonNew:hover {color: $linkColor;}
+
+
+//-- SP MegaMenu
+.az_megamenu_wrap .navbar-nav > li > a:hover {
+	color: $background;
+}
+.az_megamenu_wrap .navbar-nav > li > a:before, .az_megamenu_wrap .navbar-nav > li > a:after,
+.az_megamenu_wrap .home > a:before {
+	background-color: $background;
+}
+.az_megamenu_wrap .home {
+	.dropdown-menu {border-bottom: solid 2px $linkColor;}
+}
+.az_megamenu_wrap .navbar-nav > li {
+	.dropdown-menu {border-bottom: solid 2px $linkColor;}
+	&.mega_type .dropdown-menu ul li {
+		> a {color: $linkColor;}
+		&.featured-products .menu-title {color: $linkColor;}
+		.dropdown-menu ul li a:hover {color: $linkColor;}
+	}
+	&.css_type .dropdown-menu ul li a:hover {color: $linkColor;}
+}
+.az_megamenu_wrap .home .dropdown-menu li a:hover {color: $linkColor;}
+.navbar #az_megamenu_wrap .home .dropdown-menu li a:hover {color: $linkColor;}
+
+
+
+//-- AZ Cart
+.shopping_cart .cart_block:after {border-color: transparent transparent $linkColor transparent;}
+.cart_block .cart_block_list .remove_link:hover {background: $background;border-color: $linkColor;}
+.ajax_cart_total {color: $linkColor;}
+.shopping_cart:hover > a:first-child span.icon {color: $linkColor;}
+.shopping_cart .cart_block {border-top: solid 2px $linkColor;}
+.cart_block .price-total span.price {color: $linkColor;}
+.cart_block .cart-info .product-name a:hover {color: $linkColor;}
+.shopping_cart .cart_block .block_content .recent_items span {color: $linkColor;}
+.cart_block .buttons a#button_order_cart {background: $background;
+	&:hover {background: darken($background,15%);}
+}
+.cart_block .buttons a:hover {background: darken($background,15%);}
+
+
+//-- AZ Static Blocks
+	//Prpmotion
+	.az_promotion .item .icon {background: $background;
+		&:before {border-bottom: 28px solid $linkColor;}
+		&:after {border-top: 28px solid $linkColor;}
+	}
+
+	
+	//-- Testimonial
+	.az_testimonial {
+		.content .name {color: $linkColor;}
+		.owl-controls .owl-dots .owl-dot:hover {background: $background;}
+	}
+	
+
+//-- AZ Tabs
+div.az_tabs .aztabs-tabs-container .aztabs-tab {
+	&:before, &:after {background: $background;}
+	&:hover, &.tab-sel {color: $linkColor;
+		
+	}
+}
+div.az_tabs .owl-controls .owl-nav {
+	.owl-prev, .owl-next {
+		&:hover {color: $linkColor;border-color: $linkColor;}
+	}
+}
+
+//-- AZ Manufacturer
+.az_manufacturer .az_manufacturer-inner .owl-controls .owl-nav {
+	.owl-prev, .owl-next {
+		&:hover {color: $linkColor;border-color: $linkColor;}
+	}
+} 
+
+//-- AZ Slider
+div.countdown_product {
+	#countdown_time .num-time {color: $linkColor;}
+	.showall:hover {color: $linkColor;border-color: $linkColor;}
+}
+
+//-- AZ CountdownTimer
+.az_countdowntimer {
+	.azcountdowntimer .time .num-time {color: $linkColor;}
+	.shopnow a:hover {color: $linkColor;border-color: $linkColor;}
+}
+
+//-- Block Categories
+#categories_block_left ul.tree li {
+	&:hover {
+		&:before {color: $linkColor;}
+		> span.grower:after {color: $linkColor;}
+	}
+	> a:hover {color: $linkColor;}
+}
+
+//-- Block Layered
+#layered_block_left #layered_form {
+	#enabled_filters {
+		ul li {color: $linkColor;}
+	}
+	.layered_filter_ul li {
+		&:hover {
+			label {color: $linkColor;}
+			&:before {background: $background;}
+		}
+		&:hover {
+			div.checker span {background: $background;}
+			a {color: $linkColor;}
+		}
+	}
+	ul li input.checkbox {opacity: 0;}
+	div.checker {
+		.checked {background: $background;}
+	}
+	.ui-widget-header {background: $background;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {background: $background;}
+}
+
+//-- RESPONSIVE COLOR
+@media (max-width: 992px) {
+	
+	//-- SP MegaMenu
+	.navbar #sp-megamenu .navbar-nav li {
+		a, span.menu-title {
+			&:hover {color: $linkColor !important;}
+		}
+		&.active {
+			> a, > span.menu-title {color: $linkColor !important;}
+		}
+	}
+	.navbar #sp-megamenu .home .dropdown-menu li a:hover {color: $linkColor;}
+	.navbar .navbar-button .navbar-toggle {background: $background;
+		&:hover {background: darken($background,10%);}
+	}
+	#index .navbar #sp-megamenu .home > a {color: $linkColor !important;}
+	#contact .navbar #sp-megamenu .navbar-nav li.contact > a {color: $linkColor !important;}
+	#module-smartblog-category .navbar #sp-megamenu .navbar-nav li.blog > a {color: $linkColor !important;}
+}
+@media (max-width: 768px){
+	
+	//-- AZMENU
+	.navbar .navbar-button {
+		.navbar-toggle {background: darken($background,10%);}
+	}
+	
+	//-- AZSEARCH
+	.az_searchblock {
+		.icon-search {background: darken($background,10%) !important;}
+	}
+	
+	//-- AZCART
+	.shopping_cart {
+		> a:first-child span.icon{background: darken($background,10%);}
+	}
+}
+@media (max-width: 480px){
+	
+}

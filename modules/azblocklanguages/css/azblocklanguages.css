@@ -1,0 +1,87 @@
+#languages-block-top
+{
+  display:inline-block;
+  position:relative;
+  font-size:12px;
+}
+
+#languages-block-top span.firstWord
+{
+  display:none;
+}
+
+#languages-block-top div.current
+{
+  padding: 12px 15px 13px;
+  cursor:pointer;
+  margin: 0;
+  transition:0.3s all ease 0;
+  position:relative;
+}
+
+#languages-block-top div.current span
+{
+  padding:0 15px 0 7px;
+}
+#languages-block-top div.current img
+{
+	margin-top:-2px;
+}
+#languages-block-top div.current:hover
+{
+  color:#fff;
+  background:#ccc;
+}
+
+#languages-block-top div.current.active
+{
+  color:#fff;
+  background:#ccc;
+}
+
+#languages-block-top div.current:after
+{
+  content:"\f107";
+  font-family:FontAwesome;
+  font-size:12px;
+  position:absolute;
+  top:12px;
+  right:15px;
+}
+
+
+
+#languages-block-top ul
+{
+  display:none;
+  position:absolute;
+  width:100%;
+  padding:0;
+  background:#FFF;
+  border-style:solid;
+  border-width:0px 1px 1px;
+  z-index:2;
+  border-color:#ccc;
+}
+
+#languages-block-top ul li
+{
+  margin-bottom:1px;
+  line-height:35px;
+}
+
+#languages-block-top ul li a,#languages-block-top ul li > span
+{
+  padding:0 8px;
+  display:block;
+}
+
+#languages-block-top ul li a img,#languages-block-top ul li > span img
+{
+  margin:-2px 7px 0;
+}
+
+#languages-block-top ul li.selected,#languages-block-top ul li:hover a
+{
+  background:#F1F1F1;
+}

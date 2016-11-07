@@ -1,0 +1,54 @@
+
+// Large devices Desktops HD
+// ------------------
+@media (min-width: 1400px) {
+	
+	//-- Header
+	.header_v2 {padding: 0 75px;
+		.container {width: 100%;padding: 0;}
+	}
+	
+	//-- Tab Layout3
+	.columns-content12 {padding-left: 90px;padding-right: 90px;
+		.container {width: 100%;padding: 0;}
+	}
+	
+	
+	//RTL LANGUAGE
+	.rtl {
+		
+	}
+}
+
+// Large devices Desktops 
+// ------------------
+@media (min-width: 1200px) {
+	
+	//-- Menu Fixed
+	.menu-fixed {
+		
+		//-- SP BlockTOpMenu
+		.spsf-menu li {
+			ul.submenu-container {transform:scale(0);-ms-transform:scale(0);-webkit-transform:scale(0);}
+			&:hover ul.submenu-container {transform:scale(1);-ms-transform:scale(1);-webkit-transform:scale(1);}
+		}
+		
+		//-- SP BlockCart
+		.shopping_cart {
+			.cart_block {transform:scale(0);-ms-transform:scale(0);-webkit-transform:scale(0);}
+			&:hover .cart_block {transform:scale(1);-ms-transform:scale(1);-webkit-transform:scale(1);}
+		}
+		
+	}
+	
+	
+	
+	
+	
+	//RTL LANGUAGE
+	.rtl {
+		
+	}
+}
+
+

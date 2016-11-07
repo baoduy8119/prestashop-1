@@ -1,0 +1,232 @@
+
+/********************************************************
+	Right to Left Styles
+********************************************************/
+
+/********************************************************
+	GENERAL
+********************************************************/
+.fa-chevron-right:before {content: "\f053";}
+.fa-chevron-left:before {content: "\f054";}
+.fa-caret-right:before {content: "\f0d9";}
+.fa-caret-left:before {content: "\f0da";}
+
+
+.label-box {
+	.new-box {right: 10px;left: auto;}
+	.sale-box {left: 10px;right: auto;}
+}
+
+/********************************************************
+	HEADER
+********************************************************/
+#header-logo {float: right;}
+#header-cart {float: left;}
+
+/********************************************************
+	BREADCRUMB
+********************************************************/
+
+
+/********************************************************
+	PRESTASHOP MODULE
+********************************************************/
+//-- BlockLayered
+#layered_block_left #layered_form {
+	div.checker {left: auto;right: 0;}
+	.layered_filter_ul {
+		li label {direction: ltr;
+			span {float: left;padding: 0 5px;}
+		}
+		li:before {right: 0;left: auto;}
+		&.color-group li {margin: 0 0 21px 21px;float: right;}
+	}
+}
+#enabled_filters li a {float: left;}
+
+//-- Block Categories
+#categories_block_left ul.tree li a:before {left: auto;right: 0;content: "\f177";}
+
+//-- BlockTopSeller
+.products-block ul li .products-block-image {float: right;margin: 0 0 0 15px;}
+
+//-- Block Contactinfo
+#block_contact_infos li .icon {left: auto;right: 0;}
+
+/********************************************************
+	AZ MODULE
+********************************************************/
+
+//-- AZ Curency
+#currencies-block {float: right;
+	div.current {
+		&:after {left: 20px;right: auto;}
+		span {padding: 0 0 0 15px;}
+	}
+}
+
+//-- AZ Language 
+#languages-block {float: right;margin: 0 -15px 0 0;
+	div.current {
+		&:after {left: 20px;right: auto;}
+		span {padding: 0 0 0 15px;}
+	}
+}
+
+//-- AZ UserInfo
+.header_user_info {float: left;margin: 0 0 0 -15px;
+	ul li {float: right;
+		&:after {left: auto;right: 0;}
+	}
+}
+
+
+
+// -- AZ BlockCart
+.shopping_cart {
+	> a:first-child {
+		span.icon {border-right: none;border-left: solid 1px #e5e5e5;}
+		span.ajax_cart_quantity_text {float: right;padding: 0 3px;}
+	}
+	.cart_block {right: auto;left: 0;box-shadow: -1px 2px 2px #ddd;
+		&:after {right: auto;left: 27px;}
+	}
+}
+.cart_block {
+	.price-total span.price {float: left;}
+	.cart-images {float: right;margin: 0 0 0 20px;}
+	.cart_block_list .remove_link {right: auto;left: 0;}
+	.price-total span {float: right;}
+}
+#layer_cart {
+	.cross {right: auto;left: -10px;}
+	.layer_product {float: right;border-left: 1px solid #dedede;border-right: none;}
+	.layer_cart_img {float: right;margin: 0 0 0 30px;}
+	.layer_details {right: auto;left: 0;border-right: 1px solid #ffffff;border-left: none;}
+}
+
+//-- AZ Tabs
+.az_tabs .aztabs-items-container {
+	.aztabs-items-inner {direction: ltr;}
+	.aztabs-items .aztabs-item {direction: rtl;}
+}
+
+//-- AZ Search Block
+.az_searchblock {left: 15px;right: auto;
+	.az_searchblock-container {right: auto;left: 0;
+		.azsb_query {padding: 0 0 0 25px;}
+		.azsb_button {left: 0;right: auto;}
+	}
+}
+
+
+//-- AZ Newletter
+#newsletter_block_home .form-group {
+	#newsletter-input {float: right;}
+	.buttonNew {border-left: none;border-right: solid 1px #b2b2b2;}
+}
+
+/********************************************************
+	AZ STATICS BLOCK
+********************************************************/
+
+//-- Header Phone
+.header-contact {float: right;}
+
+
+//-- Promotion
+.az_promotion .az_pro {
+	.icon {right: 50px;left: auto;}
+	.text {padding: 0 70px 0 0;}
+	&.pro2 .text {padding: 0 50px 0 0;}
+}
+
+//-- Testimonial
+.az_testimonial {
+	.owl-stage-outer {direction: ltr;}
+	.fa-long-arrow-left:before {content: "\f177";}
+	.fa-long-arrow-right:before {content: "\f178";}
+}
+
+
+/********************************************************
+	PRODUCTS LISTING
+********************************************************/
+.content_sortPagiBar_top, .content_sortPagiBar_bottom {
+	.category-view-type {float: left;
+		.category-view-type-selector {float: right;}
+		#grid.category-view-type-selector {margin: 0 0 0 10px;}
+	}
+	.nbrItemPage {float: right;margin: 0 0 0 30px;}
+	.productsSortForm {float: right;}
+	div.selector {
+		&:after {left: 12px;right: auto;}
+		span {direction: ltr;text-align: right;}
+	}
+}
+.product_list, .product_lists {
+	.price-box {float: right;
+		.old-price {margin: 0 0 0 12px;}
+	}
+	.comments_note {float: left;}
+	&.list .comments_note {left: 0;right: auto;}
+}
+
+/********************************************************
+	PRODUCT DETAIL
+********************************************************/
+#product_full {
+	#views_block {float: right;}
+	.pb-left-column #image-block {float: right;margin: 0 0 0 30px;}
+}
+#product_left #views_block {
+	.thumbnail_image .fancybox {margin: 0 0 0 30px;}
+	.slick-arrow.slick-prev {left: 30px;}
+	.slick-arrow.slick-next {right: 0;}
+} 
+.pb-right-column .comments_note .comments_advices li.nb-comments {margin-left: 7px;margin-right: 0;
+	&:after {right: auto;left: 0;}
+}
+#attributes .attribute_fieldset_1 {float: left;}
+#attributes .attribute_fieldset_3 {float: right;}
+#attributes .attribute_list:after {left: 1px;right: auto;}
+#quantity_wanted_p {margin: 0 0 0 25px;}
+#availability_statut #availability_value:before {margin: 0 0 0 12px;}
+#attributes .attribute_list #color_to_pick_list li {float: right;margin: 0 0 0 10px;}
+.sharing-buttons .buttons a {margin: 0 35px 0 0;}
+.box-cart-bottom {
+	.wishlist_button, .compare {padding: 0 0 0 1px;}
+}
+div.panel-group .panel.active .panel-heading:after {left: auto;right: 0;}
+.blockproductscategory .product_list .button-container {direction: rtl;}
+.blockproductscategory.block .related-product {direction: ltr;
+	.price-box {direction: rtl;}
+	.owl-item {float: right;}
+}
+
+
+/********************************************************
+	FOOTER CONTAINER
+********************************************************/
+.footer-links ul li a {
+	&:before {content: "\f104";right: 0;left: auto;}
+	&:hover:before {left: auto;right: 9px;}
+}
+
+
+/********************************************************
+	PANAGITION
+********************************************************/
+ul.pagination {
+	.fa-long-arrow-left:before {content: "\f178";}
+	.fa-long-arrow-right:before {content: "\f177";}
+}
+
+/********************************************************
+	QUICKVIEW
+********************************************************/
+#product.content_only #product_left #views_block {
+	#thumbs_list {width: calc(100% + 32px);}
+	.thumbnail_image .fancybox {margin: 0 0 0 32px;}
+}
+

@@ -1,0 +1,128 @@
+// First we set the variables:
+$linkColor: #e54e5d;
+$background: #e54e5d;
+ 
+// Now we can use them in our code:
+
+//-- Import color module
+@import '../theme/_color_module';
+
+//Color Pages
+.themeskin1 {
+     
+     //-- Global
+     a:hover {color: $linkColor;}
+     .btn:hover, button:hover, .button:hover, input.button_mini:hover,
+     input.button_small:hover, input.button:hover, input.button_large:hover,
+     input.exclusive_mini:hover, input.exclusive_small:hover,
+     input.exclusive:hover, input.exclusive_large:hover,
+     a.button_mini:hover, a.button_small:hover,
+     a.button:hover, a.button_large:hover,
+     a.exclusive_mini:hover, a.exclusive_small:hover,
+     a.exclusive:hover, a.exclusive_large:hover {background: $background;}
+     div.star_on:after {color: $linkColor;}
+     .label-box .sale-box {background: $background;}
+     .footer-container h3.titlebox {
+          span:before, span:after {background: $background;}
+     }
+     
+     //-- Live Editor
+     a.backtotop:hover {background: $background;}
+     #live-editor .title {background: $background;}
+     div.img-pattern, div.themeSkin {
+          &.active, &.selected {border-color: $linkColor;}
+     }
+     
+     //-- Breadcumb
+     .breadcrumb a:hover {color: $linkColor;}
+     
+     //-- Index
+     .az_megamenu_wrap .home > a {color: #fff;}
+     .footer-links ul li a:hover {color: $linkColor;
+          &:before {color: $linkColor;}
+     }
+    
+     //-- Listing Page
+     .product_list, .product_lists {
+          h5.product-name a:hover {color: $linkColor;}
+          .button-container {
+               .addToWishlist, .add_to_compare, .quick-view {
+                    &:hover {border-color: $linkColor;color: $linkColor;}
+               }
+               .add_to_compare.checked {border-color: $linkColor;color: $linkColor;}
+          }
+          &.list .product-container .button-container {
+               .add_to_compare.checked, .cart_button:hover {background: $background;}
+          }
+          .price-box .price {color: $linkColor;}
+     }
+     .content_sortPagiBar_top, .content_sortPagiBar_bottom {
+          div.selector:hover {
+               &:after, span {color: $linkColor;}
+          }
+          .category-view-type .category-view-type-selector {
+               &#grid, &#list {
+                    &.selected, &:hover {
+                         a {background-color: $background;border-color: $linkColor;}
+                    }
+               }
+          }
+     }
+     #pagination, #pagination_bottom {
+          ul.pagination li {
+               > span:hover, > a:hover {color: $linkColor;}
+               &.active, &.current {
+                    > span, > a {color: $linkColor;}
+                    &:before, &:after {background: $background;}
+               }
+          }
+     }
+     
+     //--Product Page
+     #product_full #views_block .thumbnail_image .fancybox.shown {border-color: $linkColor;}
+     #product_full #views_block .slick-arrow:hover {border-color: $linkColor;
+          &:after {background: $background;}
+     }
+     #attributes .attribute_list #color_to_pick_list li a.color_pick.have_image.selected {background: $background;}
+     .box-cart-bottom .buttons_bottom_block button {background: $background;
+          &:hover {background: darken($linkColor, 5%);}
+     }
+     .box-cart-bottom .compare .add_to_compare.checked {background: $background;}
+     .sharing-buttons .buttons a:hover {color: $linkColor;}
+     .blockproductscategory.block .related-product .owl-controls .owl-nav {
+          .owl-prev:hover, .owl-next:hover {border-color: $linkColor;background: $background;}
+     }
+     
+     //-- Blog Page
+     div.az_lastesthomenews ul.post_list .post {
+          .post_title a:hover {color: $linkColor;}
+          .readmore {color: $linkColor;
+               &:hover {color: #000;}
+          }
+     }
+     div.blogModule ul.list-link li:hover {
+          &:before {background: $background;}
+          a {color: $linkColor;}
+     }
+     #smartblogcat .articleContent {
+          .sdsarticleHeader .sdstitle_block a:hover {color: $linkColor;}
+          .more {color: $linkColor;
+               &:hover {color: #000;}
+          }
+     }
+     ul.recentArticles li .title:hover {color: $linkColor;}
+     div#respond #commentform #submitComment:hover {background: $background;}
+     
+     //-- About us Page
+     .about-wrap {
+          .ourskills .skill .line:before {background: $background;}
+          .ourteam .member .member-text {
+               .job {color: $linkColor;}
+               .socials a:hover:before {color: $linkColor;}
+          }
+     }
+     
+     //-- Contact Page
+     &#contact .contact-form-box #submitMessage:hover {background: $background;}
+     
+}

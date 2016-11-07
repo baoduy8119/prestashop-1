@@ -1,0 +1,19 @@
+
+/********************************************************
+	IE Code
+********************************************************/
+
+#product_left #views_block {overflow: visible;
+	#thumbs_list:after {content: "";background: #fff;position: absolute;right: 0;top: 0;width: 30px;height: 100%;}
+}
+
+.rtl #product_left #views_block #thumbs_list:after {left: 0;right: auto;}
+
+.rtl {
+     .block, .moduletable {
+          .title_block {direction: ltr;}
+     }
+}
+
+.sp_searchpro .spr-container .spr_selector .spr_select {padding: 0 0 0 20px;}
+.rtl .sp_searchpro .spr-container .spr_selector .spr_select {padding: 0 20px 0 0;}

@@ -1,0 +1,50 @@
+
+
+/***********************************************************
+	404 Page Styles
+************************************************************/
+
+.pagenotfound-wrap {padding: 100px 0;
+     .pagenotfound-content {text-align: center;border: solid 1px #e5e5e5;padding: 95px 0;
+	  .img_404 {margin-bottom: 60px;}
+	  h1 {color: #252525;font-size: 30px;margin: 0 0 50px;text-transform: uppercase;font-weight: 700;letter-spacing: 10px;}
+	  p {margin: 0 0 60px;color: #707070;font-size: 18px;font-weight: 400;letter-spacing: 6px;display: block;padding: 0 15%;line-height: 30px}
+	  form {font-size: 0;margin: 0 0 30px;display: inline-block;width: 50%;border-bottom: solid 1px #252525;
+	       #search_query {height: 50px;width: calc(100% - 50px);font-size: 14px;color: #252525;font-weight: 400;background: #fff;border: none;display: inline-block;
+		    &:focus {border: none;}
+	       }
+	       button {height: 50px;display: inline-block;width: 50px;font-size: 21px;color: #252525;background: #fff;
+		    &:hover {color: $linkColor;}
+	       }
+	  }
+	  .backtohome {text-transform: uppercase;font-size: 14px;color: #fff;font-weight: 600;display: inline-block;background: #252525;letter-spacing: 2px;padding: 10px 40px;
+	       &:hover {background: $background;}
+	  }
+     }
+}
+
+//-- RESPONSIVE
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+     .pagenotfound-wrap .pagenotfound-content {
+	  h1 {font-size: 20px;}
+	  p {font-size: 16px;}
+     }
+}
+
+@media (max-width: 767px) {
+     .pagenotfound-wrap .pagenotfound-content {
+	  h1 {font-size: 26px;}
+	  p {font-size: 16px;padding: 0 5%;}
+	  form {width: 70%;}
+     }
+}
+
+@media (max-width: 480px) {
+     .pagenotfound-wrap .pagenotfound-content {
+	  h1 {font-size: 20px;}
+	  p {font-size: 16px;padding: 0 5%;}
+	  form {width: 80%;}
+     }
+}

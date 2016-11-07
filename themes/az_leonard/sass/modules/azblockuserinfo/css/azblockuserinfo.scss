@@ -1,0 +1,18 @@
+
+//-- AZ User Info
+.header_user_info {float: right;margin-right: -15px;
+    ul li {float: left;padding: 10px 20px;position: relative;
+        &:after {content: "";background: #e5e5e5;width: 1px;height: 20px;top: 9px;left: 0;position: absolute;}
+        &.account:after {display: none;}
+    }
+}
+
+@media (max-width: 768px) {
+    .header_user_info ul li.account {display: none;}
+}
+
+@media (max-width: 480px){
+    .header_user_info ul li {
+        &.wishlist, &.checkout {display: none;}
+    }
+}

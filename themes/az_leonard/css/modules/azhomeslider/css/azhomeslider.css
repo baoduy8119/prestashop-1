@@ -1,0 +1,139 @@
+/******************************************************************************
+	AZ HomeSlider
+*******************************************************************************/
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background: #F6F7F9; }
+
+.az_homeslider .owl-nav .owl-prev, .az_homeslider .owl-nav .owl-next {
+  position: absolute;
+  bottom: 50%;
+  color: #898989;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  line-height: 30px;
+  width: 15px;
+  text-align: center;
+  transition: 0.4s all ease 0s;
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  border: solid 1px transparent;
+  line-height: 40px; }
+.az_homeslider .owl-nav .owl-prev {
+  left: 30px; }
+.az_homeslider .owl-nav .owl-next {
+  right: 30px; }
+.az_homeslider .owl-dots {
+  display: block !important;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9; }
+  .az_homeslider .owl-dots .owl-dot {
+    display: inline-block;
+    background: transparent;
+    height: 9px;
+    width: 9px;
+    border: none;
+    background: #363636;
+    border-radius: 50%;
+    transition: 0.4s all ease 0s;
+    margin: 0 6px;
+    vertical-align: middle; }
+    .az_homeslider .owl-dots .owl-dot.active {
+      height: 15px;
+      width: 15px; }
+.az_homeslider .owl-item .azhomeslider-description {
+  position: absolute;
+  display: inline-block;
+  padding-top: 10%;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left; }
+  .az_homeslider .owl-item .azhomeslider-description .desc-inner h2 {
+    font-size: 60px;
+    margin: 0 0 10px;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 10px;
+    transition: 0.5s all ease 0s;
+    transform: scale(0); }
+  .az_homeslider .owl-item .azhomeslider-description .desc-inner h3 {
+    font-size: 60px;
+    margin: 0 0 20px;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+    transition: 1s all ease 0s;
+    transform: scale(0); }
+  .az_homeslider .owl-item .azhomeslider-description .desc-inner p {
+    color: #464646;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    transition: 1.5s all ease 0s;
+    transform: scale(0); }
+  .az_homeslider .owl-item .azhomeslider-description .desc-inner .learnmore {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 2px;
+    transition: 1.5s all ease 0s;
+    transform: scale(0);
+    display: inline-block; }
+  .az_homeslider .owl-item .azhomeslider-description .desc-inner.desc3 h2, .az_homeslider .owl-item .azhomeslider-description .desc-inner.desc3 h3, .az_homeslider .owl-item .azhomeslider-description .desc-inner.desc3 p {
+    color: #fff; }
+.az_homeslider .owl-item.active .azhomeslider-description .desc-inner h2, .az_homeslider .owl-item.active .azhomeslider-description .desc-inner h3, .az_homeslider .owl-item.active .azhomeslider-description .desc-inner p, .az_homeslider .owl-item.active .azhomeslider-description .desc-inner .learnmore {
+  transform: scale(1); }
+
+.rtl .az_homeslider {
+  direction: ltr; }
+  .rtl .az_homeslider .owl-dots {
+    direction: rtl; }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .az_homeslider .owl-item .azhomeslider-description {
+    padding-top: 15%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .az_homeslider .owl-item .azhomeslider-description .desc-inner {
+    padding: 0 60px; } }
+@media (min-width: 767px) and (max-width: 991px) {
+  .slider-container {
+    margin-top: 0; }
+
+  .az_homeslider .owl-item .azhomeslider-description {
+    display: none; } }
+@media (max-width: 767px) {
+  .az_homeslider .owl-item .azhomeslider-description {
+    display: none; }
+
+  .slider-container {
+    margin-bottom: 15px;
+    margin-top: 0; }
+
+  .az_homeslider .owl-nav .owl-prev, .az_homeslider .owl-nav .owl-next {
+    bottom: 45%;
+    width: auto;
+    letter-spacing: 3px;
+    display: none !important; }
+  .az_homeslider .owl-nav .owl-prev {
+    left: 30px; }
+  .az_homeslider .owl-nav .owl-next {
+    right: 30px; } }

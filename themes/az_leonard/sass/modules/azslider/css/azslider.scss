@@ -1,0 +1,75 @@
+
+//-- CountDown Time Original
+#countdown_time {padding-top:15px;}
+#countdown_time .time-item {display:inline-block;}
+
+//-- CountDown Products
+div.countdown_product {margin: 0;
+     .azslider-item {padding: 30px 0;}
+     .product_list.grid {
+          .product-container {text-align: inherit;margin: 0;
+               &:hover .product-image-container .product-image .img_0 {left: -100%;opacity: 0;}
+               .product-image-container:hover .product-image .img_0 {left: 0;opacity: 1;}
+          }
+          .right-block {padding: 80px 0 0;
+               .button-container {display: block;margin-bottom: 30px;position: relative;left: auto;right: auto;bottom: auto;display: block;
+                    .cart_button {width: auto;padding: 0 25px;}
+               }
+          }
+     }
+     .product_list {
+          h5.product-name {font-size: 36px;color: #363636;font-weight: 700;text-transform: uppercase;letter-spacing: 10px;margin-bottom: 15px;}
+          p {font-weight: 300;margin-bottom: 20px;}
+          .product-image-container {overflow: visible;padding: 0;border: none;
+               &:before, &:after {content: "";position: absolute;height: 100%;width: 100%;border: solid 3px #363636;background: #fff;z-index: -1;}
+               &:before {top: -30px;left: -30px;}
+               &:after {top: 30px;left: 30px;}
+               img {width: 100%;height: auto;}
+          }
+     }
+     #countdown_time {padding: 35px 0 25px;border: solid 1px #e9e9e9;border-left: none;border-right: none;font-size: 0;margin: 30px 0 50px;
+          .time-item {font-size: 14px;text-transform: uppercase;width: 25%;}
+          .num-time, .name-time {display: inline-block;}
+          .num-time {font-weight: 700;font-size: 36px;letter-spacing: 7px;}
+     }
+     .showall {display: inline-block;color: #252525;font-weight: 600;letter-spacing: 3px;text-transform: uppercase;border: solid 2px #000;border-radius: 2px;padding: 13px 32px;transition: 0.3s all ease 0s;}
+     .left-block {padding-right: 30px;}
+}
+
+
+//-- RESPONSIVE
+@media (min-width: 992px) and (max-width: 1199px) {
+     
+     //--CountDown
+     div.countdown_product .product_list.grid .right-block {padding: 40px 0 0;}
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+     
+     //--CountDown
+     div.countdown_product {
+          .product_list.grid .right-block {padding: 0;}
+          .product_list {
+               h5.product-name {font-size: 22px;}
+               p {font-size: 13px;}
+          }
+          #countdown_time {
+               .name-time {font-size: 12px;}
+               .num-time {font-size: 22px;letter-spacing: 2px;}
+          }
+          .showall {font-size: 12px;letter-spacing: 2px;padding: 10px 20px;}
+     }
+     
+}
+
+@media (max-width: 767px) {
+     div.countdown_product {
+          .left-block {padding: 0 30px;}
+          .product_list h5.product-name {font-size: 30px;}
+     }
+     
+     //RTL
+     .rtl {
+          &.layout2 div.countdown_product .left-block {padding: 0 30px;}
+     }
+}

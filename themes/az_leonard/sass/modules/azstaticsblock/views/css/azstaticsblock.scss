@@ -1,0 +1,153 @@
+
+//-- Header Contact
+.header-contact {float: left;padding: 10px;
+	span {padding: 0 10px;}
+}
+
+//-- Banner Layout1
+#sidebar, .left-sidebar {
+	.az_banner {margin-bottom: 40px;}
+}
+.az_banner {padding: 0;
+	.img {position: relative;display: block;overflow: hidden;
+		&.img4 {margin-top: 30px;}
+		&:before {background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.4) 100%) repeat scroll 0 0;content: "";transition: 1s all ease 0s; z-index: 9;width: 50%;transform: skewX(-20deg);top: 0;position: absolute;left: -100%;height: 100%;display: block;}
+		&:hover {
+			&:before {left: 100%;}
+		}
+	}
+}
+
+//Prpmotion
+.az_promotion {overflow: hidden;
+	.item {text-align: center;
+		.icon {display: inline-block;position: relative;width: 50px;height: 80px;margin-bottom: 40px;cursor: pointer;
+			&:after, &:before { border-left: 40px solid rgba(0, 0, 0, 0);border-right: 40px solid rgba(0, 0, 0, 0);content: "";left: 0;margin: 0 auto;position: absolute;right: 0;transform: rotate(270deg);transform: -webkit-rotate(270deg);transform: -ms-rotate(270deg);width: 0;}
+			&:before {left: -77px;top: 26px;}
+			&:after {right: -78px;top: 26px;}
+			span {position: absolute;top: 0;left: 0;width: 100%;height: 100%;font-size: 0;
+				&:before {font-family: Fontawesome;color: #fff;line-height: 80px;font-size: 37px;transition: 0.5s all ease 0s;display: inline-block;}
+			}
+		}
+		&.item1 .icon span:before {content: "\f087";}
+		&.item2 .icon span:before {content: "\f0d1";}
+		&.item3 .icon span:before {content: "\f021";}
+		.text p {color: #363636;text-transform: uppercase;font-weight: 700;font-size: 14px;letter-spacing: 1px;margin-bottom: 8px;}
+	}
+}
+
+//-- Testimonial
+.az_testimonial {position: relative;padding-top: 90px;
+	.az_ttnm {position: absolute;top: 90px;left: 0;width: 100%;left: 0;}
+	.content {text-align: center;padding: 80px 30px 30px;
+		.avatar {margin-bottom: 30px;}
+		.text {font-size: 12px;font-weight: 500;line-height: 30px;margin-bottom: 25px;letter-spacing: 1px;font-style: italic;color: #fff;}
+		.name {font-size: 30px;font-weight: 700;letter-spacing: 2px;font-size: 13px;text-transform: uppercase;}
+	}
+	.owl-controls {position: absolute;top: 20px;left: 0;right: 0;text-align: center;
+		.owl-dots .owl-dot {display: inline-block;height: 9px;width: 9px;border-radius: 50%;margin: 0 7px;transition: 0.3s all ease 0s;vertical-align: middle;background: #fff;
+			&.active {height: 16px;width: 16px;}
+		}
+	}
+}
+
+
+//-- RESPONSIVE
+@media (min-width: 1200px) and (max-width: 1400px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+     
+	//-- Banner
+	.az_banner .img.img4 {margin-top: 27px;}
+	
+	//-- Tesimonial
+	.az_testimonial .banner img {height: 415px;}
+     
+     //RTL LANGUAGE
+     .rtl {
+          
+		
+          
+     }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+	
+	//-- Banner
+	.az_banner .img.img4 {margin-top: 25px;}
+
+	//-- Testimonial
+	.az_testimonial {padding-top: 83px;
+		.banner img {height: 450px;}
+		.content {padding: 60px 30px 30px;}
+	}
+	
+	
+	
+	//-- RTL
+	.rtl {
+		
+		//-- Promotion
+          .az_promotion .az_pro .icon {right: 15px;left: auto;}
+	}
+}
+
+@media (max-width: 767px){
+	
+	//--Banner
+	.az_banner {
+		.img {
+			img {width: 100%;}
+			&.img1 {margin-bottom: 15px;}
+			&.img4 {margin-top: 15px;}
+		}
+	}
+	
+	//-- Promotion
+	.az_promotion {padding: 0;
+		.item {padding: 15px 0;
+			.icon {margin-bottom: 15px;}
+		}
+	}
+	
+	//-- Testimonial
+	.az_testimonial {padding-top: 30px;margin-bottom: 50px;
+		.banner img {width: 100%;}
+	}
+	
+	//-- Box Footer
+	.az_boxFooter {margin-bottom: 30px;}
+	
+	
+	
+	
+	//-- RTL
+	.rtl {
+		
+	}
+}
+
+@media (max-width: 480px){
+	
+	//-- Header
+	.header-contact {display: none;}
+	
+	//-- Banner
+	.az_banner {
+		.col-xs-6 {width: 100%;}
+		.img2 {margin-bottom: 15px;}
+	}
+	
+	//-- Testimonial
+	.az_testimonial .banner img {height: 500px;}
+	
+	//-- RTL
+	.rtl {
+		.az_promotion .az_pro {padding: 35px 0;
+			.icon {right: 0;left: auto;}
+		}
+	}
+	
+}

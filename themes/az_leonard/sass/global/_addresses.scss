@@ -1,0 +1,47 @@
+/*******************************************************
+	Addresses Styles
+********************************************************/
+#addresses {
+	#center_column {
+		.page-heading {margin: 0 0 22px;}
+		p {margin: 0 0 13px;
+			&.p-indent {margin: 0 0 27px;}
+		}
+	}
+}
+
+.address {
+	li {
+		&.address_update {margin: 14px 0 6px 0;
+			a {margin: 0 10px 0 0;}
+		}
+	}
+}
+#postcode {
+	&.hover {box-shadow: none;}
+	&.focus {box-shadow: none;border-color: #66afe9;}
+}
+#uniform-id_state, #uniform-id_country, #uniform-id_address_delivery {background: none;padding: 0;height: auto;position: relative;width: 270px !important;
+	&:after {content: "\f0d7";background: #fff;color: #4f4f4f;text-align: center;margin: 0;position: absolute;right: 1px;top: 1px;height: 28px;width: 30px;pointer-events:none;-ms-pointer-events:none;-webkit-pointer-events:none;font-family: Fontawesome;z-index: 3;line-height: 30px;font-size: 12px;}
+	span {width: 270px !important;background: #fff;height: 34px;border: solid 1px #ccc;padding: 0 10px;line-height: 30px;}
+	select {height: 34px;}
+}
+div.form-group.phone-number {width: 270px;}
+.address_delivery label {float: none;display: block;}
+
+.rtl {
+	#uniform-id_state, #uniform-id_country, #uniform-id_address_delivery {
+		&:after {right: auto;left: 1px;}
+	}
+	.address li.address_update a {margin: 0 0 0 10px;}
+}
+
+@media (max-width: 480px) {
+	#uniform-id_state, #uniform-id_country, #uniform-id_address_delivery {width: 100% !important;
+		span {width: 100% !important;}
+	}
+	div.form-group.phone-number {width: 100%;}
+	
+	
+}
+

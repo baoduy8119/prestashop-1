@@ -1,0 +1,28 @@
+
+
+//-- AZ Manufacturer
+.az_manufacturer {overflow: hidden;padding: 0;
+	.az_manufacturer-inner {direction: ltr;margin: 0;
+		.item {text-align: center;
+			img {width: auto;}
+		}
+		.owl-controls .owl-nav {
+			.owl-prev, .owl-next {display: inline-block;color: #898989;transition: 0.3s all ease 0s;font-size: 21px;margin: 0;position: absolute;top: 30%;border: solid 1px transparent;height: 30px;width: 30px;line-height: 30px;text-align: center;transform:scale(0);-webkit-transform:scale(0);-ms-transform:scale(0);}
+			.owl-prev {left: 0;}
+			.owl-next {right: 0;}
+		}
+		&:hover {
+			.owl-controls .owl-nav {
+				.owl-prev, .owl-next {transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);}
+			}
+		}
+	}
+}
+
+
+
+//-- RESPONSIVE
+@media (max-width: 768px){
+	.az_manufacturer {padding: 30px 0;}
+	
+}

@@ -1,0 +1,93 @@
+
+/* 5.Extra small devices Phones
+================================================== */
+@media (max-width: 767px){
+	.container {width: auto !important;}
+	
+	//-- Title Module Toogle
+	.block, .moduletable {
+		.title_block {cursor: pointer;}
+	}
+	
+	//-- QuickView
+	#product.content_only #product_left {
+		.pb-left-column {width: 70%;}
+		.pb-right-column {width: 100%;}
+	}
+	
+	//-- Breadcrumb
+	.breadcrumb {padding: 50px 0;
+		.title-page {
+			a, span {font-size: 26px;line-height: 28px;}
+		}
+	}
+	.breadcrumb-container {margin-bottom: 50px;}
+	
+	//-- Header
+	#header-menu {position: relative;}
+	.header-container #header .container {position: inherit;}
+	#header-menu .container {padding: 0;width: 100% !important;}
+	#header-logo {text-align: center;width: 100%;}
+	#header {position: relative;}
+	#header-menu {padding: 0;}
+	#header-cart {padding: 0;}
+	
+	.columns-content1 {padding: 0 0 15px;}
+	.columns-content2 {padding: 15px 0 ;}
+	.columns-content3, .columns-content4, .columns-content5 {padding: 50px 0 0;}
+	.columns-content7 {padding: 50px 0;}
+	
+	
+	
+	
+	//-- Footer Container
+	.footer-container .footer {padding: 50px 0 0;}
+	#footerBottom {padding: 30px 0;}
+	
+	
+	//-- Product Listing
+	.content_sortPagiBar_top, .content_sortPagiBar_bottom {
+		.category-view-type {display: none;}
+		div.selector {width: 254px !important;}
+	}
+	.product_list, .product_lists {
+		.button-container {
+			.quick-view {display: none;}
+			.cart_button {width: calc(100% - 80px);}
+		}
+	}
+	
+	//-- Product Detail
+	.blockproductscategory.block h3.title_block {font-size: 20px;
+		span {padding: 0 30px;
+			&:before, &:after {height: 20px;top: 0;}
+		}
+	}
+	.pb-left-column {margin-bottom: 30px;}
+	#attributes .attribute_list {width: 255px !important;}
+	#product_left {
+		.pb-left-column,.pb-right-column {width: 100%;}
+		#views_block .thumbnail_image .fancybox {margin: 0 32px 0 0;}
+	}
+	.blockproductscategory.block .related-product .owl-controls .owl-nav {
+		.owl-prev {left: 15px;}
+		.owl-next {right: 15px;}
+	}
+	
+	
+	//RTL Language
+	.rtl {
+		
+		//-- Header
+		.account-mobile {right: auto;left: 100px;border-left: none;border-right: solid 1px #3b3b3b;}
+		
+		//-- Product Detail
+		#product_left #views_block #thumbs_list {width: calc(100% + 32px);}
+		#product_left #views_block .thumbnail_image .fancybox {margin: 0 0 0 32px;}
+		
+		//-- Footer
+		.footer-container #copyright .footer-payment {text-align: center;} 
+		
+	}
+	
+}

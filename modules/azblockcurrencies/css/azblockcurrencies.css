@@ -1,0 +1,72 @@
+#currencies-block-top {
+display:inline-block;
+position:relative;
+font-size:12px;
+}
+
+#currencies-block-top form {
+margin:0;top:auto;
+}
+
+#currencies-block-top span.firstWord {
+display:none;
+}
+
+#currencies-block-top div.current
+{
+  padding: 12px 15px 13px;
+  cursor:pointer;
+  margin: 0;
+  transition:0.3s all ease 0;
+  position:relative;
+}
+#currencies-block-top div.current span 
+{
+	padding:0 15px 0 0;
+}
+
+#currencies-block-top div.current:hover
+{
+	color:#FFF;background:#ccc;
+}
+
+#currencies-block-top div.current.active 
+{
+	color:#FFF;background:#ccc;
+}
+
+#currencies-block-top div.current:after
+{
+  content:"\f107";
+  font-family:FontAwesome;
+  font-size:12px;
+  position:absolute;
+  top:12px;
+  right:15px;
+}
+
+#currencies-block-top ul.currencies_ul {
+display:none;
+position:absolute;
+width:100%;
+background:#FFF;
+padding:0;
+z-index:2;
+border-style:solid;
+border-width:0px 1px 1px;
+border-color:#ccc;
+}
+
+#currencies-block-top ul li {
+margin-bottom:1px;
+line-height:35px;
+}
+
+#currencies-block-top ul li a,#currencies-block-top ul li > span {
+display:block;
+padding:0 10px;
+}
+
+#currencies-block-top ul li.selected,#currencies-block-top ul li:hover a {
+background:#F1F1F1;
+}

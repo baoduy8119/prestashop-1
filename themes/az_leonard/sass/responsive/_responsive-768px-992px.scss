@@ -1,0 +1,64 @@
+
+
+/* 4.Small devices Tablets
+================================================== */
+@media (min-width: 767px) and (max-width: 991px) {
+	.container {width: 750px !important;}
+	
+	
+	//-- Header
+	#header-menu .container {padding: 0;width: 100% !important;}
+	
+	//-- Footer
+	.footer-container h3.titlebox {font-size: 12px;}
+	
+	//-- Product Listing
+	.content_sortPagiBar_top, .content_sortPagiBar_bottom {
+		.category-view-type {display: none;}
+		div.selector {width: 220px !important;}
+	}
+	.product_list, .product_lists {
+		&.list {
+			.price-box {margin-bottom: 5px;}
+			.product-image-container {display: inline-block;margin: 0 0 20px;}
+		}
+	}
+	
+	//-- Product Detail
+	.blockproductscategory.block .related-product .owl-controls .owl-nav {
+          .owl-next {right: 15px;}
+          .owl-prev {left: 15px;}
+     }
+	#product_full .pb-left-column {margin-bottom: 30px;}
+	#product_left {
+		.pb-left-column {margin-bottom: 30px;}
+		.pb-left-column, .pb-right-column {width: 100%;}
+	} 
+	#product.content_only {
+		#product_full {
+			.pb-left-column {width: 60%;}
+			.pb-right-column {width: 40%;}
+			#attributes .attribute_list {width: 160px !important;}
+			#quantity_wanted_p {margin: 0 5px 0 0;}
+			.box-cart-bottom .wishlist_button {margin: 0 5px;}
+		}
+		#product_left {width: 100%;
+			.pb-left-column {width: 55%;}
+			.pb-right-column {width: 45%;}
+			#attributes .attribute_list {width: 185px !important;}
+		}
+	}
+	
+	//RTL LANGUAGE
+	.rtl {
+		&.content_only {direction: rtl !important;
+			#product_left #views_block {
+				#thumbs_list {width: calc(100% + 35px) !important;}
+				.thumbnail_image {float: right !important;margin: 0 0 0 26px !important;
+					.fancybox {margin: 0 !important;}
+				}
+			}
+		}
+		
+	}
+}

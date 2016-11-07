@@ -1,0 +1,129 @@
+
+
+/**************************************************************
+	CMS Pages Styles
+***************************************************************/
+
+#cms {
+	.columns-container {overflow: hidden;}
+	h1.page-heading {border: none;padding: 0;}
+}
+
+
+//-- About us
+.about-wrap {
+	h2 {color: #252525;font-weight: 700;text-transform: uppercase;letter-spacing: 7px;margin: 0 0 60px;font-size: 36px;text-align: center;
+		span {padding: 0 50px;position: relative;
+			&:before, &:after {content: "";position: absolute;display: block;height: 26px;width: 2px;top: 1px;background: #252525;}
+			&:before {left: 0;}
+			&:after {right: 0;}
+		}
+	}
+	.about {padding-bottom: 60px;border-bottom: solid 1px #e9e9e9;text-align: center;
+		.image {margin-bottom: 60px;}
+		.text {
+			h3 {font-size: 24px;color: #252525;text-transform: uppercase;font-weight: 700;margin:  0 0 30px;letter-spacing: 3px;}
+			p {line-height: 1.7em;width: 90%;display: inline-block;margin: 0;}
+		}
+	}
+	.ourskills {padding: 60px;border-bottom: solid 1px #e9e9e9;
+		.skill {margin-bottom: 30px;
+			span {font-size: 14px;text-transform: uppercase;font-weight: 600;color: #252525;padding-bottom: 15px;letter-spacing: 2px;display: block;}
+			.line {display: block;height: 3px;width: 100%;background: #ececec;position: relative;
+				&:before {content: "";display: block;height: 100%;background: $background;position: absolute;top: 0;left: 0;}
+				&.pts:before {width: 83%;}
+				&.html:before {width: 76%;}
+				&.wp:before {width: 88%;}
+				&.joomla:before {width: 71%;}
+				&.magento:before {width: 80%;}
+				&.prestashop:before {width: 65%;}
+				&.opencart:before {width: 52%;}
+				&.drupal:before {width: 61%;}
+			}
+		}
+	}
+	.ourteam {padding-top: 60px;
+		.member {position: relative;overflow: hidden;
+			&:before {content: "";z-index: 1;position: absolute;opacity: 0;background: #000;transition: 0.3s all ease 0s;top: 0;left: 0;height: 100%;width: 100%;}
+			.member-text {position: absolute;height: auto;display: block;left: 0;width: 100%;bottom: -100%;padding: 30px;transition: 0.3s all ease 0s;opacity: 0;z-index: 2;
+				.name {color: #fff;font-size: 18px;font-weight: 600;position: relative;margin-bottom: 20px;padding-bottom: 15px;
+					&:after {content: "";display: block;height: 2px;background: #fff;width: 45px;left: 0;bottom: 0;position: absolute;}
+				}
+				.job {font-size: 12px;color: $linkColor;margin-bottom: 25px;}
+				.socials {
+					a {display: inline-block;font-size: 0;margin-right: 30px;
+						&:before {font-family: Fontawesome;font-size: 18px;color: #fff;display: inline-block;}
+						&.facebook:before {content: "\f09a";}
+						&.twitter:before {content: "\f099";}
+						&.dribbble:before {content: "\f17d";}
+						&:hover:before {color: $linkColor;}
+					}
+				}
+			}
+			&:hover {
+				&:before {opacity: 0.4;}
+				.member-text {opacity: 1;bottom: 0;}
+			}
+		}
+	}
+}
+
+
+
+/**************************************************************
+	RTL Code
+***************************************************************/
+.rtl {
+	.about-wrap {
+		h2 {direction: ltr;}
+		.ourskills .skill .line:before {right: 0;left: auto;}
+		.ourteam .member .member-text {
+			.name:after {right: 0;left: auto;}
+			.socials a {margin: 0 0 0 30px;}
+		}
+	}
+	
+}
+
+/**************************************************************
+	Responsive Code
+***************************************************************/
+@media (min-width: 992px) and (max-width: 1024px) {
+	
+	
+	
+	//-- RTL
+	.rtl {
+		
+	}
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+	.about-wrap .ourteam .member .member-text .name {font-size: 17px;}
+	.hidden-mobile {display: none;}
+	
+}
+
+@media (max-width: 767px) {
+
+	.about-wrap .ourteam {text-align: center;
+		.member {text-align: left;display: inline-block;margin-bottom: 30px;}
+	}
+	
+	//--RTL Language
+	.rtl {
+		.about-wrap .ourteam .member {text-align: right;}
+	}
+	
+}
+
+@media (max-width: 480px) {
+	
+	.about-wrap {
+		h2 {font-size: 26px;}
+		.ourteam .member {display: block;}
+		.ourskills {padding: 50px 0;}
+	}
+	
+}

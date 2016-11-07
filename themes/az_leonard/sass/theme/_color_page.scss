@@ -1,0 +1,23 @@
+/*******************************************************
+  Style My Theme
+********************************************************/
+
+//-- Products Comparison
+#product_comparison {
+	.prices-container {
+		.price {color: $linkColor;}
+		.price-percent-reduction {background: $background;}
+	}
+}
+
+//-- Pages Order
+#order #order-detail-content .product-name a:hover {color: $linkColor;}
+.cart_delete a.cart_quantity_delete, a.price_discount_delete {
+	&:hover {color: $linkColor;}
+}
+
+//-- Contact Page
+#contact {
+	.gmap .contact-info .social a:hover {color: $linkColor;}
+	.contact-form-box #submitMessage:hover {background: $background;}
+}
